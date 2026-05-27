@@ -1,0 +1,87 @@
+/* ————————————————
+   STYLE GLOBAL
+——————————————— */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f7f7f7;
+    color: #222;
+}
+
+/* ————————————————
+   HEADER / ZONE BLEUE
+——————————————— */
+
+.zone-bleue {
+    background: #1a1a1a;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.sous-titre {
+    color: #3FD1C2;
+    font-size: 18px;
+    margin-top: -10px;
+}
+
+.ligne {
+    width: 120px;
+    height: 3px;
+    background: #3FD1C2;
+    margin: 15px auto;
+}
+
+/* ————————————————
+   SOMMAIRE / MENU
+——————————————— */
+
+.sommaire {
+    background: white;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.sommaire ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.sommaire a {
+    text-decoration: none;
+    color: #0a3d78;
+    font-weight: bold;
+}
+
+/* ————————————————
+   CONTENU
+——————————————— */
+
+.content {
+    max-width: 900px;
+    margin: 30px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #0a3d78;
+}
+
+/* ————————————————
+   FOOTER
+——————————————— */
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #555;
+}
