@@ -1,1 +1,142 @@
+/* -------------------- RESET -------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
 
+body {
+    background: #f7f7f7;
+    color: #333;
+    line-height: 1.6;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* -------------------- TITRES -------------------- */
+h1, h2, h3 {
+    color: #0A3D78; /* bleu foncé */
+    margin-bottom: 12px;
+}
+
+/* -------------------- ZONE BLEUE -------------------- */
+.zone-bleue {
+    background: #0A3D78;
+    color: white;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.sous-titre {
+    color: #3FD1C2; /* bleu-vert */
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.ligne {
+    width: 60px;
+    height: 4px;
+    background: #3FD1C2;
+    border-radius: 4px;
+    margin: 12px 0 20px 0;
+}
+
+/* -------------------- SOMMAIRE HORIZONTAL -------------------- */
+.sommaire-horizontal {
+    display: flex;
+    gap: 15px;
+    padding: 12px 0;
+    border-bottom: 3px solid #0A3D78;
+    margin-bottom: 25px;
+}
+
+.sommaire-horizontal a {
+    color: #0A3D78;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.sommaire-horizontal a:hover {
+    color: #3FD1C2;
+}
+
+/* --- CARTES MODERNES --- */
+.carte {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.carte:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+}
+
+/* --- BOUTONS MODERNES --- */
+.btn {
+    display: inline-block;
+    background: #3FD1C2;
+    color: #fff;
+    padding: 12px 22px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background 0.2s ease, transform 0.2s ease;
+}
+.btn:hover {
+    background: #32b5a9;
+    transform: translateY(-2px);
+}
+
+/* --- FORMULAIRES --- */
+form {
+    margin-top: 20px;
+}
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 14px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    font-size: 16px;
+}
+textarea {
+    min-height: 140px;
+}
+input[type="submit"] {
+    background: #3FD1C2;
+    color: #fff;
+    border: none;
+    padding: 14px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    transition: background 0.2s ease, transform 0.2s ease;
+}
+input[type="submit"]:hover {
+    background: #32b5a9;
+    transform: translateY(-2px);
+}
+
+/* --- LISTE DES SUJETS --- */
+.liste-sujets {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.sujet {
+    background: #fff;
+    padding: 18px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.06);
+}
+.sujet h3 {
+    margin-top: 0;
+}
