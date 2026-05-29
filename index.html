@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Peuplitique – Accueil</title>
-<link rel="stylesheet" href="design.css"
+<link rel="stylesheet" href="design.css">
 </head>
 
 <body>
@@ -11,9 +11,18 @@
 <!-- HEADER BLEU -->
 <header class="zone-bleue">
     <h1>PEUPLITIQUE</h1>
-    <p class="sous-titre">Plateforme citoyenne – Gouvernance partagée – Intelligence collective</p>
+    <p class="sous-titre">Plateforme citoyenne – Décision – Innovation</p>
     <div class="ligne"></div>
 </header>
+
+<!-- SÉLECTEUR DE LANGUE -->
+<div class="lang-switch">
+    <a href="#" onclick="setLang('fr')">FR</a> |
+    <a href="#" onclick="setLang('en')">EN</a> |
+    <a href="#" onclick="setLang('es')">ES</a> |
+    <a href="#" onclick="setLang('ru')">RU</a> |
+    <a href="#" onclick="setLang('zh')">中文</a>
+</div>
 
 <!-- SOMMAIRE HORIZONTAL -->
 <nav class="sommaire">
@@ -29,39 +38,62 @@
 <!-- CONTENU PRINCIPAL -->
 <section class="content">
 
-    <div class="carte">
-        <h2>Bienvenue sur Peuplitique</h2>
-        <p>
-            Peuplitique est une plateforme citoyenne dédiée à la compréhension, l’analyse et la co‑construction 
-            d’un modèle de gouvernance partagée. Elle permet d’explorer les thématiques essentielles qui structurent 
-            la société, l’économie, l’environnement, les ressources, la souveraineté et les décisions publiques.
-        </p>
+    <!-- ⭐ VERSION FRANÇAISE -->
+    <div data-lang="fr">
+
+        <div class="carte">
+            <h2>Bienvenue sur Peuplitique</h2>
+            <p>
+                Peuplitique est une plateforme citoyenne dédiée à l’analyse collective, 
+                à la prise de décision éclairée et à la construction d’un écosystème durable.
+            </p>
+        </div>
+
+        <div class="carte">
+            <h2>Un espace pour comprendre et agir</h2>
+            <p>
+                Vous y trouverez des thématiques détaillées, un écosystème structuré, 
+                un espace de débat citoyen et un forum ouvert à tous.
+            </p>
+        </div>
+
+        <div class="carte">
+            <h2>Objectif</h2>
+            <p>
+                Donner aux citoyens les outils pour analyser, comparer, débattre 
+                et proposer des solutions concrètes pour l’avenir.
+            </p>
+        </div>
+
     </div>
 
-    <div class="carte">
-        <h2>Objectif</h2>
-        <p>
-            Offrir un espace clair, lisible et accessible où chaque citoyen peut comprendre les enjeux, 
-            proposer des idées, participer aux débats et suivre les avancées collectives.
-        </p>
-    </div>
+    <!-- ⭐ VERSION ANGLAISE -->
+    <div data-lang="en" style="display:none;">
 
-    <div class="carte">
-        <h2>Accès rapide</h2>
-        <ul>
-            <li><a href="thematiques.html">Thématiques citoyennes</a></li>
-            <li><a href="ecosysteme.html">Écosystème & interactions</a></li>
-            <li><a href="debat.html">Débat public</a></li>
-            <li><a href="forum.html">Forum d’échanges</a></li>
-        </ul>
-    </div>
+        <div class="carte">
+            <h2>Welcome to Peuplitique</h2>
+            <p>
+                Peuplitique is a citizen platform dedicated to collective analysis, 
+                informed decision‑making and the construction of a sustainable ecosystem.
+            </p>
+        </div>
 
-    <div class="carte">
-        <h2>Participation citoyenne</h2>
-        <p>
-            La participation citoyenne est au cœur du projet : analyses, contributions, propositions, 
-            co‑construction et validation collective des orientations publiques.
-        </p>
+        <div class="carte">
+            <h2>A space to understand and act</h2>
+            <p>
+                You will find detailed themes, a structured ecosystem, 
+                a citizen debate area and an open forum.
+            </p>
+        </div>
+
+        <div class="carte">
+            <h2>Objective</h2>
+            <p>
+                Provide citizens with tools to analyse, compare, debate 
+                and propose concrete solutions for the future.
+            </p>
+        </div>
+
     </div>
 
 </section>
@@ -69,6 +101,9 @@
 <footer>
     <p>© Peuplitique – Plateforme citoyenne</p>
 </footer>
+
+<!-- SCRIPT MULTILINGUE -->
+<script src="lang.js"></script>
 
 </body>
 </html>
