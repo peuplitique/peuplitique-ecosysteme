@@ -3,17 +3,19 @@
 <head>
 <meta charset="UTF-8">
 <title>Peuplitique – Forum citoyen</title>
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="design.css">
 </head>
 
 <body>
-<script src="lang.js"></script>
+
 <!-- HEADER BLEU -->
 <header class="zone-bleue">
     <h1>FORUM CITOYEN</h1>
     <p class="sous-titre">Discussions – Idées – Intelligence collective</p>
     <div class="ligne"></div>
 </header>
+
+<!-- SÉLECTEUR DE LANGUE -->
 <div class="lang-switch">
     <a href="#" onclick="setLang('fr')">FR</a> |
     <a href="#" onclick="setLang('en')">EN</a> |
@@ -21,6 +23,7 @@
     <a href="#" onclick="setLang('ru')">RU</a> |
     <a href="#" onclick="setLang('zh')">中文</a>
 </div>
+
 <!-- SOMMAIRE HORIZONTAL -->
 <nav class="sommaire">
     <ul>
@@ -35,48 +38,53 @@
 <!-- CONTENU PRINCIPAL -->
 <section class="content">
 
-    <div class="carte">
-        <h2>Fonction du forum citoyen</h2>
-        <p>
-            Le forum est un espace ouvert où chaque citoyen peut proposer des idées, 
-            poser des questions, partager des analyses et contribuer à la construction collective.
-        </p>
-    </div>
+    <!-- VERSION FRANÇAISE -->
+    <div data-lang="fr">
 
-    <div class="carte">
-        <h2>Espaces d’échanges</h2>
-        <p>
-            Les espaces d’échanges couvrent autant de domaines de la connaissance que de la création :
-            médecine, archéologie, cosmologie, hydroponie, aquaponie, innovations mécaniques, philosophie,
-            pensée critique, littérature, musique, arts, génie génétique et recherches émergentes.
-        </p>
-        <p>
-            Ces thématiques relient savoirs scientifiques, pratiques concrètes, imaginaires collectifs 
-            et choix de société, afin que les citoyens puissent débattre, proposer et orienter les trajectoires futures.
-        </p>
-        <p>
-            Comme sur les plateformes sociales, les citoyens peuvent s’y rencontrer, échanger, partager des photos 
-            et communiquer librement, mais dans un cadre structuré, citoyen et constructif.
-        </p>
-    </div>
+        <div class="carte">
+            <h2>Fonction du forum citoyen</h2>
+            <p>
+                Le forum est un espace ouvert où chaque citoyen peut proposer des idées, 
+                poser des questions, partager des analyses et contribuer à la construction collective.
+            </p>
+        </div>
 
-    <div class="carte">
-        <h2>Organisation des discussions</h2>
-        <ul>
-            <li><strong>Thématiques nationales</strong> : santé, éducation, énergie…</li>
-            <li><strong>Thématiques internationales</strong> : géopolitique, climat…</li>
-            <li><strong>Innovation & énergie verte</strong></li>
-            <li><strong>Économie intégrée</strong></li>
-            <li><strong>Culture & société</strong></li>
-        </ul>
-    </div>
+        <div class="carte">
+            <h2>Espaces d’échanges</h2>
+            <p>
+                Les espaces d’échanges couvrent autant de domaines de la connaissance que de la création :
+                médecine, archéologie, cosmologie, hydroponie, aquaponie, innovations mécaniques, philosophie,
+                pensée critique, littérature, musique, arts, génie génétique et recherches émergentes.
+            </p>
+            <p>
+                Ces thématiques relient savoirs scientifiques, pratiques concrètes, imaginaires collectifs 
+                et choix de société, afin que les citoyens puissent débattre, proposer et orienter les trajectoires futures.
+            </p>
+            <p>
+                Comme sur les plateformes sociales, les citoyens peuvent s’y rencontrer, échanger, partager des photos 
+                et communiquer librement, mais dans un cadre structuré, citoyen et constructif.
+            </p>
+        </div>
 
-    <div class="carte">
-        <h2>IA citoyenne</h2>
-        <p>
-            Une IA non-censurante peut générer des synthèses, résumer les discussions 
-            et mettre en lumière les points d’accord.
-        </p>
+        <div class="carte">
+            <h2>Organisation des discussions</h2>
+            <ul>
+                <li><strong>Thématiques nationales</strong> : santé, éducation, énergie…</li>
+                <li><strong>Thématiques internationales</strong> : géopolitique, climat…</li>
+                <li><strong>Innovation & énergie verte</strong></li>
+                <li><strong>Économie intégrée</strong></li>
+                <li><strong>Culture & société</strong></li>
+            </ul>
+        </div>
+
+        <div class="carte">
+            <h2>IA citoyenne</h2>
+            <p>
+                Une IA non-censurante peut générer des synthèses, résumer les discussions 
+                et mettre en lumière les points d’accord.
+            </p>
+        </div>
+
     </div>
 
 </section>
@@ -85,6 +93,8 @@
     <p>© Peuplitique – Forum citoyen</p>
 </footer>
 
+<!-- SCRIPT MULTILINGUE -->
+<script src="lang.js"></script>
+
 </body>
 </html>
-
