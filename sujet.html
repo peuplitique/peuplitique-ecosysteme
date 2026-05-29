@@ -1,56 +1,130 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <title>Sujets proposés</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<title>Peuplitique – Sujet citoyen</title>
+<link rel="stylesheet" href="design.css">
 </head>
 
 <body>
 
-<header>
-    <nav class="menu-bleu">
-        <a href="index.html">Accueil</a>
-        <a href="debats.html">Débats</a>
-        <a href="sujets.html" class="actif">Sujets proposés</a>
-        <a href="forum.html">Forum</a>
-        <a href="medias.html">Médias</a>
-    </nav>
+<!-- HEADER BLEU -->
+<header class="zone-bleue">
+    <h1>SUJET CITOYEN</h1>
+    <p class="sous-titre">Analyse – Propositions – Décisions</p>
+    <div class="ligne"></div>
 </header>
 
-<div class="zone-bleue">
-    <h1>Sujets proposés</h1>
+<!-- SÉLECTEUR DE LANGUE -->
+<div class="lang-switch">
+    <a href="#" onclick="setLang('fr')">FR</a> |
+    <a href="#" onclick="setLang('en')">EN</a> |
+    <a href="#" onclick="setLang('es')">ES</a> |
+    <a href="#" onclick="setLang('ru')">RU</a> |
+    <a href="#" onclick="setLang('zh')">中文</a>
 </div>
 
-<div class="sommaire-horizontal">
-    <a href="debats.html">Débats</a>
-    <a href="sujets.html" class="actif">Sujets proposés</a>
-    <a href="proposer-sujet.html">Proposer un sujet</a>
-</div>
+<!-- SOMMAIRE HORIZONTAL -->
+<nav class="sommaire">
+    <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="thematiques.html">Thématiques</a></li>
+        <li><a href="ecosysteme.html">Écosystème</a></li>
+        <li><a href="debat.html">Débat</a></li>
+        <li><a href="forum.html">Forum</a></li>
+        <li><a href="sujet.html" class="active">Sujet</a></li>
+    </ul>
+</nav>
 
-<div class="container">
+<!-- CONTENU PRINCIPAL -->
+<section class="content">
 
-    <section class="liste-sujets">
+    <!-- ⭐ VERSION FRANÇAISE -->
+    <div data-lang="fr">
 
-        <div class="sujet">
-            <h3>Réforme de la justice</h3>
-            <p>Résumé court…</p>
-            <a class="btn" href="#">Entrer dans le sujet</a>
+        <div class="carte">
+            <h2>Présentation du sujet</h2>
+            <p>
+                Cette page permet de présenter un sujet précis, d’en analyser les enjeux,
+                d’exposer les arguments et de proposer des pistes de solutions citoyennes.
+            </p>
         </div>
 
-        <div class="sujet">
-            <h3>Prix des abonnements essentiels</h3>
-            <p>Résumé court…</p>
-            <a class="btn" href="#">Entrer dans le sujet</a>
+        <div class="carte">
+            <h2>Enjeux principaux</h2>
+            <p>
+                Chaque sujet est analysé selon son impact social, économique, environnemental
+                et géopolitique, afin d’offrir une vision globale et compréhensible.
+            </p>
         </div>
 
-    </section>
+        <div class="carte">
+            <h2>Arguments</h2>
+            <ul>
+                <li>Arguments pour</li>
+                <li>Arguments contre</li>
+                <li>Arguments neutres</li>
+                <li>Analyses complémentaires</li>
+            </ul>
+        </div>
 
-</div>
+        <div class="carte">
+            <h2>Propositions citoyennes</h2>
+            <p>
+                Les citoyens peuvent proposer des solutions, voter, comparer les options
+                et contribuer à la construction d’une décision collective.
+            </p>
+        </div>
+
+    </div>
+
+    <!-- ⭐ VERSION ANGLAISE -->
+    <div data-lang="en" style="display:none;">
+
+        <div class="carte">
+            <h2>Topic presentation</h2>
+            <p>
+                This page presents a specific topic, analyses its issues,
+                exposes arguments and proposes citizen‑driven solutions.
+            </p>
+        </div>
+
+        <div class="carte">
+            <h2>Main issues</h2>
+            <p>
+                Each topic is analysed based on its social, economic, environmental
+                and geopolitical impact to provide a clear and global understanding.
+            </p>
+        </div>
+
+        <div class="carte">
+            <h2>Arguments</h2>
+            <ul>
+                <li>Arguments for</li>
+                <li>Arguments against</li>
+                <li>Neutral arguments</li>
+                <li>Additional analyses</li>
+            </ul>
+        </div>
+
+        <div class="carte">
+            <h2>Citizen proposals</h2>
+            <p>
+                Citizens can propose solutions, vote, compare options
+                and contribute to building a collective decision.
+            </p>
+        </div>
+
+    </div>
+
+</section>
 
 <footer>
-    <p>Peuplitique — Participation citoyenne</p>
+    <p>© Peuplitique – Sujet citoyen</p>
 </footer>
+
+<!-- SCRIPT MULTILINGUE -->
+<script src="lang.js"></script>
 
 </body>
 </html>
