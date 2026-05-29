@@ -2,18 +2,27 @@
 <html lang="fr">
 <head>
 <meta charset="UTF-8">
-<title>Peuplitique – Médias</title>
-<link rel="stylesheet" href="style.css">
+<title>Peuplitique – Média citoyen</title>
+<link rel="stylesheet" href="design.css">
 </head>
 
 <body>
 
 <!-- HEADER BLEU -->
 <header class="zone-bleue">
-    <h1>MÉDIAS</h1>
-    <p class="sous-titre">Documents – Vidéos – Analyses</p>
+    <h1>MÉDIA CITOYEN</h1>
+    <p class="sous-titre">Information – Analyse – Transparence</p>
     <div class="ligne"></div>
 </header>
+
+<!-- SÉLECTEUR DE LANGUE -->
+<div class="lang-switch">
+    <a href="#" onclick="setLang('fr')">FR</a> |
+    <a href="#" onclick="setLang('en')">EN</a> |
+    <a href="#" onclick="setLang('es')">ES</a> |
+    <a href="#" onclick="setLang('ru')">RU</a> |
+    <a href="#" onclick="setLang('zh')">中文</a>
+</div>
 
 <!-- SOMMAIRE HORIZONTAL -->
 <nav class="sommaire">
@@ -23,48 +32,120 @@
         <li><a href="ecosysteme.html">Écosystème</a></li>
         <li><a href="debat.html">Débat</a></li>
         <li><a href="forum.html">Forum</a></li>
-        <li><a href="medias.html" class="active">Médias</a></li>
+        <li><a href="media.html" class="active">Média</a></li>
     </ul>
 </nav>
 
 <!-- CONTENU PRINCIPAL -->
 <section class="content">
 
-    <div class="carte">
-        <h2>Documents</h2>
-        <p>Accédez aux documents essentiels liés aux thématiques citoyennes et aux propositions publiques.</p>
-        <ul>
-            <li>Rapports PDF</li>
-            <li>Analyses thématiques</li>
-            <li>Études citoyennes</li>
-        </ul>
+    <!-- ⭐ VERSION FRANÇAISE -->
+    <div data-lang="fr">
+
+        <div class="carte">
+            <h2>Un média citoyen indépendant</h2>
+            <p>
+                Le média citoyen de Peuplitique fournit une information claire, vérifiée et accessible,
+                sans influence politique ou économique. Il permet aux citoyens de comprendre les enjeux
+                nationaux et internationaux.
+            </p>
+        </div>
+
+        <div class="carte">
+            <h2>Analyses et synthèses</h2>
+            <p>
+                Les analyses sont produites à partir de données publiques, de recherches scientifiques
+                et de contributions citoyennes. L’objectif est de rendre l’information compréhensible
+                et utile pour la prise de décision collective.
+            </p>
+        </div>
+
+        <div class="carte">
+            <h2>Transparence totale</h2>
+            <p>
+                Chaque article, graphique ou synthèse indique ses sources, ses méthodes et ses limites.
+                La transparence est un pilier fondamental du média citoyen.
+            </p>
+        </div>
+
+        <div class="carte">
+            <h2>IA citoyenne</h2>
+            <p>
+                L’IA non‑censurante génère des résumés, compare les données, détecte les tendances
+                et met en lumière les points d’accord entre citoyens.
+            </p>
+        </div>
+
+        <div class="carte">
+            <h2>Formats disponibles</h2>
+            <ul>
+                <li>Articles courts</li>
+                <li>Analyses longues</li>
+                <li>Graphiques interactifs</li>
+                <li>Vidéos explicatives</li>
+                <li>Podcasts citoyens</li>
+            </ul>
+        </div>
+
     </div>
 
-    <div class="carte">
-        <h2>Vidéos</h2>
-        <p>Interviews, présentations, explications visuelles et contenus pédagogiques.</p>
-        <ul>
-            <li>Présentation du projet Peuplitique</li>
-            <li>Débats enregistrés</li>
-            <li>Analyses thématiques en vidéo</li>
-        </ul>
-    </div>
+    <!-- ⭐ VERSION ANGLAISE -->
+    <div data-lang="en" style="display:none;">
 
-    <div class="carte">
-        <h2>Analyses & Synthèses</h2>
-        <p>Contenus approfondis pour comprendre les enjeux, les interactions et les impacts.</p>
-        <ul>
-            <li>Analyses économiques</li>
-            <li>Études environnementales</li>
-            <li>Notes de synthèse citoyennes</li>
-        </ul>
+        <div class="carte">
+            <h2>An independent citizen media</h2>
+            <p>
+                The citizen media of Peuplitique provides clear, verified and accessible information,
+                free from political or economic influence. It helps citizens understand national
+                and international issues.
+            </p>
+        </div>
+
+        <div class="carte">
+            <h2>Analysis and summaries</h2>
+            <p>
+                Analyses are produced from public data, scientific research and citizen contributions.
+                The goal is to make information understandable and useful for collective decision‑making.
+            </p>
+        </div>
+
+        <div class="carte">
+            <h2>Full transparency</h2>
+            <p>
+                Each article, graph or summary indicates its sources, methods and limitations.
+                Transparency is a fundamental pillar of the citizen media.
+            </p>
+        </div>
+
+        <div class="carte">
+            <h2>Citizen AI</h2>
+            <p>
+                The non‑censoring AI generates summaries, compares data, detects trends
+                and highlights points of agreement between citizens.
+            </p>
+        </div>
+
+        <div class="carte">
+            <h2>Available formats</h2>
+            <ul>
+                <li>Short articles</li>
+                <li>Long analyses</li>
+                <li>Interactive charts</li>
+                <li>Explainer videos</li>
+                <li>Citizen podcasts</li>
+            </ul>
+        </div>
+
     </div>
 
 </section>
 
 <footer>
-    <p>© Peuplitique — Participation citoyenne</p>
+    <p>© Peuplitique – Média citoyen</p>
 </footer>
+
+<!-- SCRIPT MULTILINGUE -->
+<script src="lang.js"></script>
 
 </body>
 </html>
