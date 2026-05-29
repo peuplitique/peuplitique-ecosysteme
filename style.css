@@ -1,87 +1,77 @@
-/* ————————————————
-   STYLE GLOBAL
-——————————————— */
-
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background: #f7f7f7;
-    color: #222;
-}
-
-/* ————————————————
-   HEADER / ZONE BLEUE
-——————————————— */
-
-.zone-bleue {
-    background: #1a1a1a;
-    color: white;
-    padding: 30px 20px;
-    text-align: center;
-}
-
-.sous-titre {
-    color: #3FD1C2;
-    font-size: 18px;
-    margin-top: -10px;
-}
-
-.ligne {
-    width: 120px;
-    height: 3px;
-    background: #3FD1C2;
-    margin: 15px auto;
-}
-
-/* ————————————————
-   SOMMAIRE / MENU
-——————————————— */
-
-.sommaire {
-    background: white;
-    padding: 10px 0;
-    border-bottom: 1px solid #ddd;
-}
-
-.sommaire ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    gap: 25px;
-}
-
-.sommaire a {
-    text-decoration: none;
-    color: #0a3d78;
-    font-weight: bold;
-}
-
-/* ————————————————
-   CONTENU
-——————————————— */
-
-.content {
-    max-width: 900px;
-    margin: 30px auto;
-    background: white;
-    padding: 25px;
-    border-radius: 8px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-}
-
-h2 {
-    color: #0a3d78;
-}
-
-/* ————————————————
-   FOOTER
-——————————————— */
-
-footer {
-    text-align: center;
+/* --- CARTES MODERNES --- */
+.carte {
+    background: #ffffff;
+    border-radius: 12px;
     padding: 20px;
-    color: #555;
+    margin: 20px 0;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.carte:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+}
+
+/* --- BOUTONS MODERNES --- */
+.btn {
+    display: inline-block;
+    background: #3FD1C2;
+    color: #fff;
+    padding: 12px 22px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background 0.2s ease, transform 0.2s ease;
+}
+.btn:hover {
+    background: #32b5a9;
+    transform: translateY(-2px);
+}
+
+/* --- FORMULAIRES --- */
+form {
+    margin-top: 20px;
+}
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 14px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    font-size: 16px;
+}
+textarea {
+    min-height: 140px;
+}
+input[type="submit"] {
+    background: #3FD1C2;
+    color: #fff;
+    border: none;
+    padding: 14px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    transition: background 0.2s ease, transform 0.2s ease;
+}
+input[type="submit"]:hover {
+    background: #32b5a9;
+    transform: translateY(-2px);
+}
+
+/* --- LISTE DES SUJETS --- */
+.liste-sujets {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.sujet {
+    background: #fff;
+    padding: 18px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.06);
+}
+.sujet h3 {
+    margin-top: 0;
 }
