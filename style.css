@@ -1,3 +1,68 @@
+/* -------------------- RESET -------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f7f7f7;
+    color: #333;
+    line-height: 1.6;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* -------------------- TITRES -------------------- */
+h1, h2, h3 {
+    color: #0A3D78; /* bleu foncé */
+    margin-bottom: 12px;
+}
+
+/* -------------------- ZONE BLEUE -------------------- */
+.zone-bleue {
+    background: #0A3D78;
+    color: white;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.sous-titre {
+    color: #3FD1C2; /* bleu-vert */
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.ligne {
+    width: 60px;
+    height: 4px;
+    background: #3FD1C2;
+    border-radius: 4px;
+    margin: 12px 0 20px 0;
+}
+
+/* -------------------- SOMMAIRE HORIZONTAL -------------------- */
+.sommaire-horizontal {
+    display: flex;
+    gap: 15px;
+    padding: 12px 0;
+    border-bottom: 3px solid #0A3D78;
+    margin-bottom: 25px;
+}
+
+.sommaire-horizontal a {
+    color: #0A3D78;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.sommaire-horizontal a:hover {
+    color: #3FD1C2;
+}
+
 /* --- CARTES MODERNES --- */
 .carte {
     background: #ffffff;
