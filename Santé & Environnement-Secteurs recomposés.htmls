@@ -9,88 +9,73 @@
 
 <header class="header">
     <h1>Santé & Environnement — Secteurs recomposés</h1>
-    <p>Vision intégrée : santé, environnement, alimentation, ressources, social, infrastructures, IA citoyenne, identité distribuée.</p>
+    <p>Vision intégrée : santé, environnement, alimentation, social, ressources, infrastructures, IA citoyenne, identité distribuée.</p>
 </header>
 
 <nav class="sommaire-horizontal">
     <ul>
-        <li><a href="#sante-env">Santé & Environnement</a></li>
-        <li><a href="#analyse-croisee">Analyse croisée</a></li>
+        <li><a href="#vision">Vision intégrée</a></li>
+        <li><a href="#recomposition">Recomposition des secteurs</a></li>
         <li><a href="#alimentation">Alimentation & nutraceutique</a></li>
         <li><a href="#social">Environnement social</a></li>
+        <li><a href="#analyse">Analyse croisée</a></li>
         <li><a href="#stockage">Stockage des données</a></li>
-        <li><a href="#micro-centres">Micro centres de données</a></li>
-        <li><a href="#identite">Identité numérique citoyenne</a></li>
+        <li><a href="#microcentres">Micro centres de données</a></li>
+        <li><a href="#identite">Identité distribuée</a></li>
         <li><a href="#synthese">Synthèse citoyenne</a></li>
     </ul>
 </nav>
 
-<section class="bloc" id="sante-env">
-    <h2>1. Pourquoi Santé et Environnement sont indissociables</h2>
-    <p>La santé dépend directement de l’air, de l’eau, des sols, du climat et de l’environnement social. Un environnement dégradé entraîne maladies, fragilités et coûts sociaux. Un environnement sain crée prévention, stabilité et résilience.</p>
-
-    <h3>2. Pourquoi les systèmes actuels séparent les deux secteurs</h3>
-    <p>Historiquement :</p>
+<section class="bloc" id="vision">
+    <h2>1. Santé & Environnement — Vision intégrée</h2>
+    <p>La santé dépend directement de l’air, de l’eau, des sols, du climat et de l’environnement social.</p>
     <ul>
-        <li>Santé → hôpitaux, soins, prévention</li>
+        <li>Environnement dégradé → maladies, fragilités, coûts sociaux</li>
+        <li>Environnement sain → prévention, stabilité, résilience</li>
+    </ul>
+    <p>Santé et environnement ne sont pas deux secteurs : ce sont deux faces d’une même réalité.</p>
+</section>
+
+<section class="bloc" id="recomposition">
+    <h2>2. Recomposition citoyenne des secteurs</h2>
+    <p>Les systèmes actuels séparent :</p>
+    <ul>
+        <li>Santé → soins, hôpitaux, prévention</li>
         <li>Environnement → pollution, climat, biodiversité</li>
     </ul>
     <p>Cette séparation crée des angles morts, des crises évitables, des incohérences et des coûts inutiles.</p>
 
-    <h3>3. Recomposition citoyenne : Santé–Environnement</h3>
-    <p>Dans Peuplitique, les deux deviennent un secteur intégré : <strong>Santé environnementale citoyenne</strong>.</p>
+    <h3>Secteur recomposé</h3>
+    <p>Dans Peuplitique :</p>
     <ul>
-        <li>qualité de l’air,</li>
-        <li>qualité de l’eau,</li>
-        <li>qualité des sols,</li>
-        <li>polluants industriels,</li>
-        <li>risques climatiques,</li>
-        <li>impacts sur les maladies,</li>
-        <li>effets sur les générations futures.</li>
+        <li>La santé n’est plus seulement les soins, mais la prévention environnementale</li>
+        <li>L’environnement n’est plus seulement pollution/climat, mais acteur des soins nutraceutiques</li>
+        <li>Les plantes, micronutriments et ressources naturelles redeviennent des actifs de santé</li>
     </ul>
-    <p>Ce secteur relie directement les données environnementales, sanitaires, sociales et territoriales.</p>
-</section>
-
-<section class="bloc" id="analyse-croisee">
-    <h2>4. Pourquoi l’analyse croisée devient indispensable</h2>
-    <ul>
-        <li>pollution ↔ maladies respiratoires</li>
-        <li>pesticides ↔ cancers</li>
-        <li>chaleur ↔ mortalité</li>
-        <li>eau ↔ infections</li>
-        <li>bruit ↔ troubles cognitifs</li>
-        <li>sols ↔ alimentation</li>
-        <li>climat ↔ hôpitaux saturés</li>
-    </ul>
-    <p>L’analyse croisée détecte les causes réelles, évite les crises, réduit les coûts, protège les citoyens et stabilise les territoires.</p>
-
-    <h3>Secteur transversal</h3>
-    <p>Il relie santé, environnement, économie réelle, ressources, souveraineté, transition verte, agriculture, infrastructures et climat.</p>
 </section>
 
 <section class="bloc" id="alimentation">
-    <h2>5. Alimentation, nutraceutique et santé</h2>
-    <p>La santé dépend aussi de l’alimentation. Une alimentation polluée crée des maladies ; une alimentation vivante crée prévention et résilience.</p>
+    <h2>3. Alimentation & nutraceutique</h2>
+    <p>Tout vient de la planète : sols, eau, air, biodiversité. Si ces bases sont saines, la santé est préservée. Si elles sont polluées, les maladies augmentent.</p>
 
-    <h3>Économie circulaire alimentaire</h3>
-    <p>Les sciences alimentaires doivent entrer dans un modèle circulaire :</p>
+    <h3>Modèle circulaire alimentaire</h3>
     <ul>
-        <li>produire sans polluer,</li>
-        <li>protéger les sols,</li>
-        <li>recycler les ressources,</li>
-        <li>garantir une alimentation vivante.</li>
+        <li>produire sans polluer</li>
+        <li>recycler les ressources</li>
+        <li>protéger les sols</li>
+        <li>garantir une alimentation vivante</li>
     </ul>
 
     <h3>Soins nutraceutiques</h3>
-    <p>Les soins évoluent vers les nutraceutiques : moins de pharmaceutique, plus de soins issus de l’alimentation, des plantes, des micronutriments et des ressources naturelles.</p>
+    <p>Soins issus de l’alimentation, des plantes, des micronutriments et des ressources naturelles.</p>
 </section>
 
 <section class="bloc" id="social">
-    <h2>6. Environnement social : pollution immédiate</h2>
-    <p>L’environnement inclut aussi le social : exclusion, précarité, stress, insécurité. Ce sont des pollutions immédiates qui impactent autant la santé que l’air ou l’eau.</p>
+    <h2>4. Environnement social</h2>
+    <p>L’environnement inclut aussi le social. L’exclusion, la précarité, le stress et l’insécurité sont des pollutions immédiates qui fragilisent l’économie et les soins.</p>
 
     <h3>Infrastructures</h3>
-    <p>Logement, eau, énergie, mobilité : sans infrastructures optimisées, aucun secteur ne peut être durable.</p>
+    <p>Logement, eau, énergie, mobilité : des infrastructures optimisées garantissent santé, emploi, cohésion.</p>
 
     <h3>Commerce & juridique</h3>
     <p>La confiance est la clé du commerce. Un cadre juridique coopératif protège citoyens, producteurs et ressources.</p>
@@ -99,69 +84,79 @@
     <p>Former aux nouveaux métiers, aux ressources, aux technologies propres, à l’économie circulaire.</p>
 </section>
 
-<section class="bloc" id="stockage">
-    <h2>7. Stockage des données : éviter les espaces sous-marins</h2>
-
-    <h3>Risques des infrastructures sous-marines</h3>
+<section class="bloc" id="analyse">
+    <h2>5. Analyse croisée</h2>
+    <p>L’analyse croisée permet de détecter les causes réelles, d’éviter les crises, de réduire les coûts, de protéger les citoyens et de stabiliser les territoires.</p>
+    <p>Ce secteur transversal relie :</p>
     <ul>
-        <li>instabilité géopolitique,</li>
-        <li>risques de sabotage,</li>
-        <li>maintenance difficile,</li>
-        <li>dépendance à des infrastructures privées,</li>
-        <li>vulnérabilité internationale.</li>
+        <li>santé</li>
+        <li>environnement</li>
+        <li>économie réelle</li>
+        <li>ressources</li>
+        <li>souveraineté</li>
+        <li>transition verte</li>
+        <li>agriculture</li>
+        <li>infrastructures</li>
+        <li>climat</li>
     </ul>
-
-    <h3>Besoin réel : stockage souverain</h3>
-    <p>Les données sont la preuve des ressources, la base de la santé environnementale, la source de l’économie réelle et la garantie de la Banque Coopérative.</p>
 </section>
 
-<section class="bloc" id="micro-centres">
-    <h2>8. Solution : micro centres de données distribués</h2>
-    <p>Un réseau de micro centres de données souverains, coopératifs, alimentés par des ressources locales.</p>
+<section class="bloc" id="stockage">
+    <h2>6. Stockage des données</h2>
+    <p>Les espaces sous-marins sont trop risqués : instabilité géopolitique, sabotage, maintenance difficile, dépendance privée, vulnérabilité internationale.</p>
 
-    <h3>Pourquoi c’est la meilleure solution</h3>
+    <h3>Besoin citoyen</h3>
+    <p>Les données sont :</p>
     <ul>
-        <li>résilience,</li>
-        <li>souveraineté,</li>
-        <li>énergie réelle,</li>
-        <li>sécurité,</li>
-        <li>économie intégrée.</li>
+        <li>preuve des ressources</li>
+        <li>base de la santé environnementale</li>
+        <li>source de l’économie réelle</li>
+        <li>garantie de la Banque Coopérative</li>
+        <li>survie de l’IA citoyenne</li>
+    </ul>
+</section>
+
+<section class="bloc" id="microcentres">
+    <h2>7. Micro centres de données</h2>
+    <p>Solution : un réseau de micro centres terrestres, distribués, souverains, coopératifs, alimentés par des ressources locales.</p>
+
+    <h3>Avantages</h3>
+    <ul>
+        <li>résilience</li>
+        <li>souveraineté</li>
+        <li>énergie réelle (solaire, biomasse, géothermie, micro-éolien)</li>
+        <li>sécurité (pas de point unique de défaillance)</li>
+        <li>monnaie ressource basée sur l’infrastructure</li>
     </ul>
 
-    <h3>Vital pour l’IA citoyenne</h3>
-    <p>L’IA citoyenne ne peut pas survivre si les données sont instables ou centralisées.</p>
+    <h3>Pour la santé & l’environnement</h3>
+    <ul>
+        <li>stockage local des données de pollution et de santé</li>
+        <li>analyse croisée en temps réel</li>
+        <li>alertes citoyennes</li>
+        <li>prévention des crises</li>
+    </ul>
 
-    <h3>Indispensable pour la Banque Coopérative</h3>
-    <p>La ressource = monnaie réelle.  
-    La donnée = preuve de la ressource.</p>
+    <h3>Pour l’IA citoyenne</h3>
+    <p>Une IA ne peut pas survivre si les données sont instables, centralisées ou vulnérables.</p>
+
+    <h3>Pour la Banque Coopérative</h3>
+    <p>La ressource devient la monnaie réelle.  
+    La donnée devient la preuve de la ressource.</p>
 </section>
 
 <section class="bloc" id="identite">
-    <h2>9. Identité numérique citoyenne distribuée</h2>
-
-    <h3>Danger des identités centralisées</h3>
-    <ul>
-        <li>traçabilité totale,</li>
-        <li>perte de souveraineté,</li>
-        <li>manipulation possible.</li>
-    </ul>
+    <h2>8. Identité distribuée</h2>
+    <p>Une identité numérique centralisée crée un point unique de contrôle et de vulnérabilité : traçabilité totale, profilage, perte de souveraineté, scoring social.</p>
 
     <h3>Solution citoyenne</h3>
-    <p>Identité distribuée, non centralisée, basée sur des preuves indépendantes : santé, environnement, ressources, participation, compétences.</p>
-
-    <h3>Identité ancrée dans les ressources</h3>
-    <ul>
-        <li>énergie produite,</li>
-        <li>temps citoyen,</li>
-        <li>compétences,</li>
-        <li>contributions.</li>
-    </ul>
+    <p>Identité distribuée, souveraine, protégée par les micro centres, garantie par la Banque Coopérative.</p>
 </section>
 
 <section class="bloc" id="synthese">
-    <h2>10. Synthèse citoyenne</h2>
-    <p>Tu recomposes Santé, Environnement, Alimentation, Social, Économie circulaire, Ressources, IA, Banque Coopérative et Identité en un seul système cohérent.</p>
-    <p>Un modèle stable, préventif, souverain, circulaire, pour les générations futures.</p>
+    <h2>9. Synthèse citoyenne</h2>
+    <p>Nous recomposons un secteur Santé–Environnement transversal connecté à l’Économie, aux Ressources, à l’IA et à la Banque Coopérative.</p>
+    <p>Un système de santé préventif, un environnement protecteur, une économie réelle, une gouvernance citoyenne et un modèle stable pour les générations futures.</p>
 </section>
 
 <footer class="footer">
