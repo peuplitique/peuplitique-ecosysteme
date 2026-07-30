@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Secteurs recomposés — Ressources, IA, Transports & Innovation</title>
+</head>
+
+<body>
+
+<header class="header">
+    <h1>Secteurs recomposés — Peuplitique</h1>
+    <p>Ressources rares, IA, santé, agriculture, énergie, transports et innovation de véhicules volants.</p>
+</header>
+
+<nav class="sommaire-horizontal">
+    <ul>
+        <li><a href="#sante">Santé</a></li>
+        <li><a href="#agricole">Agricole & Sol</a></li>
+        <li><a href="#eau-energie">Eau & Énergie</a></li>
+        <li><a href="#logements">Logements & Réseaux</a></li>
+        <li><a href="#mecanique">Mécanique & Industrie</a></li>
+        <li><a href="#transport-routier">Transport routier</a></li>
+        <li><a href="#transport-maritime">Transport maritime</a></li>
+        <li><a href="#transport-aerien">Transport aérien</a></li>
+        <li><a href="#vehicules-volants">Véhicules volants</a></li>
+        <li><a href="#synthese">Synthèse sectorielle</a></li>
+    </ul>
+</nav>
+
+<section class="bloc" id="sante">
+    <h2>1. Secteur Santé</h2>
+    <p>La santé devient un secteur connecté aux ressources rares et à l’IA.</p>
+    <ul>
+        <li>Gallium + IA → capteurs médicaux souverains (diagnostic, suivi en temps réel).</li>
+        <li>Graphite + IA → implants et dispositifs intelligents à faible consommation.</li>
+        <li>Platine + IA → dispositifs médicaux propres (cathéters, capteurs, micro‑réacteurs).</li>
+        <li>Niobium + IA → instruments résistants pour chirurgie et soins intensifs.</li>
+    </ul>
+</section>
+
+<section class="bloc" id="agricole">
+    <h2>2. Secteur Agricole & Sol</h2>
+    <p>Le sol, l’eau et les cultures sont reliés aux métaux rares et à l’IA.</p>
+    <ul>
+        <li>Gallium + IA → capteurs sol/eau pour irrigation intelligente.</li>
+        <li>Germanium + IA → analyse du sol en profondeur (nutriments, pollution).</li>
+        <li>Manganèse + IA → batteries pour machines agricoles locales.</li>
+        <li>Niobium + IA → structures anti‑érosion et protection des terres.</li>
+    </ul>
+</section>
+
+<section class="bloc" id="eau-energie">
+    <h2>3. Secteur Eau & Énergie</h2>
+    <p>L’eau et l’énergie deviennent circulaires, propres et souveraines.</p>
+    <ul>
+        <li>Platine + Iridium + IA → hydrogène propre via électrolyse.</li>
+        <li>Ruthénium + IA → électrolyseurs stables pour production locale.</li>
+        <li>Lithium + IA → stockage énergétique souverain (micro‑réseaux).</li>
+        <li>Terres rares + IA → éoliennes haute performance pour énergie réelle.</li>
+    </ul>
+</section>
+
+<section class="bloc" id="logements">
+    <h2>4. Secteur Logements & Réseaux</h2>
+    <p>Les logements deviennent des nœuds énergétiques et de données.</p>
+    <ul>
+        <li>Cuivre + IA → réseaux électriques intelligents (maison, quartier, ville).</li>
+        <li>Titane + IA → structures résistantes et légères pour habitats durables.</li>
+        <li>Gallium + IA → capteurs environnementaux (air, humidité, température).</li>
+    </ul>
+</section>
+
+<section class="bloc" id="mecanique">
+    <h2>5. Secteur Mécanique & Industrie</h2>
+    <p>Le génie mécanique et civil se connecte aux métaux rares et à l’IA.</p>
+    <ul>
+        <li>Terres rares + IA → moteurs électriques souverains (EV, machines industrielles).</li>
+        <li>Nickel + IA → turbines optimisées pour industrie et énergie.</li>
+        <li>Titane + IA → pièces légères et résistantes pour machines.</li>
+        <li>Niobium + IA → superalliages pour ponts, ports, structures industrielles.</li>
+    </ul>
+</section>
+
+<section class="bloc" id="transport-routier">
+    <h2>6. Secteur Transport routier</h2>
+    <p>Le transport routier devient propre, optimisé et circulaire.</p>
+    <ul>
+        <li>Terres rares + IA → moteurs EV souverains pour véhicules légers et lourds.</li>
+        <li>Lithium + IA → batteries longue durée pour flottes logistiques.</li>
+        <li>Gallium + IA → électronique embarquée pour optimisation des trajets.</li>
+    </ul>
+</section>
+
+<section class="bloc" id="transport-maritime">
+    <h2>7. Secteur Transport maritime</h2>
+    <p>Le maritime devient écologique, optimisé et connecté aux ressources.</p>
+    <ul>
+        <li>Terres rares + IA → moteurs marins propres.</li>
+        <li>Niobium + IA → coques résistantes et durables.</li>
+        <li>Platine + IA → hydrogène marin pour propulsion propre.</li>
+        <li>IA navigation → routes optimisées, réduction des émissions.</li>
+    </ul>
+</section>
+
+<section class="bloc" id="transport-aerien">
+    <h2>8. Secteur Transport aérien</h2>
+    <p>L’aérien devient léger, optimisé et sécurisé.</p>
+    <ul>
+        <li>Titane + IA → structures légères pour avions et drones.</li>
+        <li>Niobium + IA → turbines aériennes haute performance.</li>
+        <li>Gallium + IA → électronique de vol et capteurs.</li>
+        <li>IA prédictive → sécurité maximale, maintenance anticipée.</li>
+    </ul>
+</section>
+
+<section class="bloc" id="vehicules-volants">
+    <h2>9. Innovation — Véhicules volants</h2>
+    <p>Les véhicules volants deviennent un nouveau mode de transport alimentaire et marchand.</p>
+    <h3>Principes de conception</h3>
+    <ul>
+        <li>Terres rares + IA → propulsion électrique/magnétique (moteurs légers, puissants).</li>
+        <li>Titane + IA → structure ultra‑légère et résistante.</li>
+        <li>Lithium + IA → batteries aériennes haute densité.</li>
+        <li>Gallium + IA → capteurs de vol, stabilisation, navigation autonome.</li>
+    </ul>
+    <h3>Principes de transport alimentaire / marchand</h3>
+    <ul>
+        <li>Petits véhicules volants pour livraisons locales (drones cargo, nourriture, médicaments).</li>
+        <li>Véhicules volants intermédiaires pour corridors logistiques régionaux.</li>
+        <li>Intégration avec ports, hubs logistiques, marchés, coopératives agricoles.</li>
+        <li>IA de routage pour minimiser énergie, temps, pertes et émissions.</li>
+    </ul>
+</section>
+
+<section class="bloc" id="synthese">
+    <h2>10. Synthèse sectorielle</h2>
+    <p>Les métaux rares physiques et les métaux rares IA recomposent un méta‑secteur transversal :</p>
+    <ul>
+        <li>Santé connectée aux capteurs et à l’énergie souveraine.</li>
+        <li>Agriculture reliée au sol, à l’eau et aux réseaux intelligents.</li>
+        <liÉnergie circulaire basée sur hydrogène, batteries et éoliennes souveraines.</li>
+        <li>Transports routiers, maritimes, aériens et volants optimisés par l’IA.</li>
+        <li>Logements et infrastructures intégrés dans des micro‑réseaux coopératifs.</li>
+    </ul>
+</section>
+
+<footer class="footer">
+    <p>Peuplitique — Ressources, IA, Transports & Innovation citoyenne.</p>
+</footer>
+
+</body>
+</html>
