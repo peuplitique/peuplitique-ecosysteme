@@ -1,10 +1,35 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <title>Data Analyste, Cogniteur IA & Data Navigator</title>
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Constitution Peuplitique — Thématique Juridique</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<nav class="sommaire-horizontal">
+    <ul>
+        <li><a href="#article1">Article 1</a></li>
+        <li><a href="#article2">Article 2</a></li>
+        <li><a href="#article3">Article 3</a></li>
+        <li><a href="#article4">Article 4</a></li>
+        <li><a href="#article5">Article 5</a></li>
+        <li><a href="#article6">Article 6</a></li>
+        <li><a href="#article7">Article 7</a></li>
+        <li><a href="#article8">Article 8</a></li>
+        <li><a href="#article9">Article 9</a></li>
+        <li><a href="#article10">Article 10</a></li>
+        <li><a href="#article11">Article 11</a></li>
+        <li><a href="#article12">Article 12</a></li>
+        <li><a href="#article13">Article 13</a></li>
+        <li><a href="#article14">Article 14</a></li>
+        <li><a href="#article15">Article 15</a></li>
+        <li><a href="#article16">Article 16</a></li>
+        <li><a href="#article17">Article 17</a></li>
+        <li><a href="#article18">Article 18</a></li>
+        <li><a href="#article19">Article 19</a></li>
+    </ul>
+</nav>
 
 <section id="constitution-peuplitique-juridique">
   <h1>Constitution Peuplitique — Thématique Juridique</h1>
@@ -1475,6 +1500,11 @@
     </ul>
   </article>
 
-</section> 
+</section>
+<footer class="footer">
+    <p>
+        Peuplitique — Constitution citoyenne juridique
+    </p>
+</footer>
 </body>
 </html>
