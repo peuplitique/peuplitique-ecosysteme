@@ -8,7 +8,31 @@
 <title>Peuplitique Écosystème - Token Ressource</title>
 
 <style>
+<script>
 
+document.querySelectorAll("[data-lang]").forEach(btn => {
+
+    btn.addEventListener("click", () => {
+
+        let lang = btn.dataset.lang;
+
+        document
+            .querySelectorAll(".lang-block")
+            .forEach(block => {
+
+                block.classList.remove("active");
+
+            });
+
+        document
+            .getElementById(lang)
+            .classList.add("active");
+
+    });
+
+});
+
+</script>
 body{
     margin:0;
     font-family:Arial,sans-serif;
@@ -159,12 +183,15 @@ Architecture Mondiale des Ressources
 <a href="contact.html">Contact</a>
 
 </nav>
-
+ 
 <div class="zone-bleue">
 
-    <div style="text-align:center;padding:20px;">
+Token Ressource • Participation • Décision • Gouvernance
+</div>
 
-<a href="https://peuplitique.github.io/peuplitique-app-/"
+<div style="text-align:center;padding:20px;">  
+    
+    <a href="https://peuplitique.github.io/peuplitique-app-/"
    class="btn-application"
    target="_blank"
    rel="noopener noreferrer">
