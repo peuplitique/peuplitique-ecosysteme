@@ -1,30 +1,5 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <h2>Consultation Citoyenne</h2>
-
-<p>
-Le présent site permet de découvrir le fonctionnement du
-Token Ressource et de participer aux consultations publiques.
-</p>
-
-<p>
-Les mécanismes de vote souverain, de validation distribuée
-et de gouvernance sécurisée sont destinés à être opérés
-à travers l'application Peuplitique Écosystème.
-</p>
-
-<p>
-Le site web constitue une interface d'information,
-alors que l'application assure la gestion sécurisée
-des identités, des tokens et des consultations citoyennes.
-</p>
-
-<!DOCTYPE html>
-<html lang="fr">
 
 <head>
 <meta charset="UTF-8">
@@ -35,98 +10,126 @@ des identités, des tokens et des consultations citoyennes.
 <style>
 
 body{
-margin:0;
-font-family:Arial,sans-serif;
-background:#0a3d78;
-color:white;
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#0a3d78;
+    color:white;
 }
 
 header{
-background:#005bbb;
-padding:20px;
-text-align:center;
+    background:#005bbb;
+    text-align:center;
+    padding:20px;
 }
 
 .ligne{
-width:100px;
-height:3px;
-background:#3FD1C2;
-margin:10px auto;
+    width:100px;
+    height:3px;
+    background:#3FD1C2;
+    margin:10px auto;
 }
 
 .menu-haut,
 .menu-bas{
-background:#003f7f;
-padding:12px;
-display:flex;
-justify-content:center;
-flex-wrap:wrap;
-gap:20px;
+    background:#003f7f;
+    padding:12px;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:20px;
 }
 
 .menu-haut a,
 .menu-bas a{
-color:white;
-text-decoration:none;
-font-weight:bold;
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.menu-haut a:hover,
+.menu-bas a:hover{
+    color:#3FD1C2;
 }
 
 .zone-bleue{
-background:#3FD1C2;
-color:#003f7f;
-padding:20px;
-text-align:center;
-font-weight:bold;
+    background:#3FD1C2;
+    color:#003f7f;
+    text-align:center;
+    font-weight:bold;
+    padding:20px;
 }
 
 .content{
-max-width:1000px;
-margin:30px auto;
-background:white;
-color:black;
-padding:30px;
-border-radius:8px;
+    max-width:1000px;
+    margin:30px auto;
+    background:white;
+    color:black;
+    padding:30px;
+    border-radius:8px;
 }
 
-h1,h2{
-color:#005bbb;
+h1,h2,h3{
+    color:#005bbb;
 }
 
 .sommaire{
-background:#f5f5f5;
-padding:20px;
-border-left:5px solid #3FD1C2;
+    background:#f5f5f5;
+    padding:20px;
+    border-left:5px solid #3FD1C2;
+    margin-bottom:25px;
 }
 
 .sommaire a{
-color:#005bbb;
-text-decoration:none;
-font-weight:bold;
+    color:#005bbb;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.sommaire li{
+    margin-bottom:8px;
+}
+
+.btn-application{
+    display:inline-block;
+    background:#3FD1C2;
+    color:#003f7f;
+    padding:14px 24px;
+    border-radius:8px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.btn-application:hover{
+    background:white;
 }
 
 .token-box{
-background:#eef9f7;
-border:1px solid #3FD1C2;
-padding:20px;
-margin-top:20px;
-border-radius:6px;
+    background:#eef9f7;
+    border:1px solid #3FD1C2;
+    padding:20px;
+    border-radius:8px;
 }
 
 button{
-background:#005bbb;
-color:white;
-border:none;
-padding:12px 20px;
-cursor:pointer;
-}
-
-button:hover{
-background:#003f7f;
+    background:#005bbb;
+    color:white;
+    border:none;
+    padding:12px 20px;
+    border-radius:4px;
+    cursor:pointer;
 }
 
 footer{
-text-align:center;
-padding:20px;
+    text-align:center;
+    padding:20px;
+}
+
+.lang-block{
+    display:none;
+}
+
+.lang-block.active{
+    display:block;
 }
 
 </style>
@@ -150,166 +153,173 @@ Architecture Mondiale des Ressources
 <nav class="menu-haut">
 
 <a href="index.html">Accueil</a>
-
-<a href="organisation-economique.html">
-Économie Intégrée
-</a>
-
-<a href="autonomie-alimentaire.html">
-Autonomie Alimentaire
-</a>
-
-<a href="vote-token.html">
-Token Ressource
-</a>
-
-<a href="contact.html">
-Contact
-</a>
+<a href="economie-integree.html">Économie intégrée</a>
+<a href="autonomie-alimentaire.html">Autonomie alimentaire</a>
+<a href="token-ressource.html">Token Ressource</a>
+<a href="contact.html">Contact</a>
 
 </nav>
 
 <div class="zone-bleue">
 
-Token Ressource • Participation Citoyenne • Souveraineté
+    <div style="text-align:center;padding:20px;">
+
+<a href="https://peuplitique.github.io/peuplitique-app-/"
+   class="btn-application"
+   target="_blank"
+   rel="noopener noreferrer">
+
+ Accéder à l'Application Peuplitique
+
+</a>
 
 </div>
 
+
 <div class="content">
 
-<h1>Token Ressource AMR</h1>
+<div id="fr" class="lang-block active">
+
+<h1>Token Ressource</h1>
+
 
 <div class="sommaire">
 
 <h2>Sommaire</h2>
 
 <ul>
-
-<li><a href="#vision">Vision</a></li>
-
-<li><a href="#fonctionnement">Fonctionnement</a></li>
-
-<li><a href="#utilite">Utilité</a></li>
-
-<li><a href="#consultation">Consultation citoyenne</a></li>
-
-<li><a href="#contact">Contact</a></li>
-
+    <li><a href="#vision">Vision du Token Ressource</a></li>
+    <li><a href="#fonctionnement">Fonctionnement du Token</a></li>
+    <li><a href="#acces">Accès aux décisions</a></li>
+    <li><a href="#consultation">Consultations citoyennes</a></li>
+    <li><a href="#application">Application Peuplitique</a></li>
+    <li><a href="#contact">Contact</a></li>
 </ul>
 
-</div>
+</div>    
+       
 
-<h2 id="vision">Vision</h2>
+<h2 id="vision">Vision du Token Ressource</h2>
 
 <p>
-Le Token Ressource constitue l'unité de référence proposée
-par l'Architecture Mondiale des Ressources.
+Le Token Ressource est l'identifiant de participation au sein de l'Écosystème Peuplitique.
 </p>
 
 <p>
-Sa valeur repose sur les ressources réelles :
-eau, énergie, alimentation, infrastructures,
-capacités de production et résilience.
+Il permet aux citoyens de participer aux consultations,
+aux décisions collectives et aux futures formes de gouvernance partagée.
 </p>
 
 <h2 id="fonctionnement">Fonctionnement</h2>
 
 <p>
-Le système vise à relier la valeur économique
-à la richesse réellement disponible au sein des territoires.
+Chaque utilisateur dispose d'un identifiant unique.
 </p>
-
-<ul>
-
-<li>Eau.</li>
-
-<li>Énergie.</li>
-
-<li>Alimentation.</li>
-
-<li>Ressources stratégiques.</li>
-
-<li>Savoirs et innovation.</li>
-
-<li>Résilience écologique.</li>
-
-</ul>
-
-<h2 id="utilite">Utilité</h2>
 
 <p>
-Le Token Ressource vise à favoriser :
+Cet identifiant donne accès :
 </p>
 
 <ul>
-
-<li>la souveraineté économique ;</li>
-
-<li>l'autonomie alimentaire ;</li>
-
-<li>la stabilité des échanges ;</li>
-
-<li>la valorisation des ressources réelles ;</li>
-
-<li>la transparence économique ;</li>
-
-<li>la résilience territoriale.</li>
-
+<li>aux consultations citoyennes ;</li>
+<li>aux espaces de participation ;</li>
+<li>aux votes ;</li>
+<li>aux projets collaboratifs ;</li>
+<li>aux processus décisionnels de l'écosystème.</li>
 </ul>
-
-<h2 id="consultation">
-Consultation citoyenne
-</h2>
 
 <div class="token-box">
 
-<p>
-Génération d'un identifiant local.
-</p>
+<h3>Exemple de Token</h3>
 
 <button onclick="genererToken()">
 Générer un identifiant
 </button>
 
-<p id="token"></p>
+<p id="tokenFR"></p>
 
 </div>
 
+<h2 id="acces">Accès aux décisions</h2>
+
 <p>
-Les futurs mécanismes de vote sécurisé
-seront intégrés directement à l'application
-Peuplitique Écosystème.
+Le Token Ressource constitue une clé d'accès à la participation citoyenne.
 </p>
+
+<p>
+Les décisions et consultations sont opérées depuis l'application Peuplitique.
+</p>
+
+<h2 id="consultation">Consultations citoyennes</h2>
+<p>
+Le site présente les propositions et les informations publiques.
+</p>
+ 
+<p>
+Les votes sécurisés, les consultations citoyennes et les décisions
+de gouvernance sont réalisés depuis l'Application Peuplitique.
+</p>
+ 
+<div style="text-align:center;padding:20px;">
+ 
+<a href="https://peuplitique.github.io/peuplitique-app-/"
+class="btn-application"
+target="_blank"
+rel="noopener noreferrer">
+ 
+ Participer aux votes et décisions
+ 
+</a>
+ 
+</div>
 
 <h2 id="contact">Contact</h2>
 
 <p>
-Participer au projet Peuplitique :
+Pour contribuer au projet Peuplitique :
 </p>
 
 <p>
-<a href="https://docs.google.com/forms/d/e/1FAIpQLSdnddp60lx2UKO3RU__Ac5QkK2hIPbb-8QvxSnVYCnHP_lpkQ/viewform" target="_blank">
-Formulaire de contact Peuplitique
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSdnddp60lx2UKO3RU__Ac5QkK2hIPbb-8QvxSnVYCnHP_lpkQ/viewform"
+   target="_blank"
+   rel="noopener noreferrer">
+
+Accéder au formulaire de contact
+
 </a>
+
 </p>
+
+</div>
+
+<div id="en" class="lang-block">
+
+<h1>Resource Token</h1>
+
+<p>
+The Resource Token is the participation identifier within the Peuplitique Ecosystem.
+</p>
+
+<p>
+It provides access to consultations, decisions and governance processes.
+</p>
+
+<p>
+Voting and decision-making functions are managed through the Peuplitique application.
+</p>
+
+</div>
 
 </div>
 
 <nav class="menu-bas">
 
 <a href="index.html">Accueil</a>
-
-<a href="organisation-politique-territoriale.html">
-Organisation territoriale
-</a>
-
-<a href="vote-token.html">
-Token Ressource
-</a>
-
-<a href="contact.html">
-Contact
-</a>
+<a href="economie-integree.html">Économie</a>
+<a href="autonomie-alimentaire.html">Alimentation</a>
+<a href="token-ressource.html">Token</a>
+<a href="contact.html">Contact</a>
 
 </nav>
 
@@ -320,7 +330,7 @@ Contact
 </p>
 
 <p>
-Ressources • Résilience • Souveraineté
+Participation • Ressources • Résilience • Gouvernance
 </p>
 
 </footer>
@@ -330,19 +340,18 @@ Ressources • Résilience • Souveraineté
 function genererToken(){
 
 const token =
-"AMR-" +
+"PEUP-" +
 crypto.randomUUID()
-.substring(0,12)
+.substring(0,8)
 .toUpperCase();
 
-document.getElementById("token")
-.innerHTML =
-"<strong>" + token + "</strong>";
-
 localStorage.setItem(
-"amr_token",
+"peuplitique_token",
 token
 );
+
+document.getElementById("tokenFR").innerHTML =
+"<strong>" + token + "</strong>";
 
 }
 
@@ -350,13 +359,5 @@ token
 
 </body>
 </html>
-    
-    
-    
-    
-    
-    
-    
-    
   
 
