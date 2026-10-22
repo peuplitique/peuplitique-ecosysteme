@@ -66,6 +66,7 @@ header{
     color:black;
     padding:30px;
     border-radius:8px;
+    overflow-wrap:break-word;
 }
 
 h1,h2,h3{
@@ -97,6 +98,7 @@ h1,h2,h3{
     border-radius:8px;
     text-decoration:none;
     font-weight:bold;
+    transition:0.3s;
 }
 
 .btn-application:hover{
@@ -119,6 +121,11 @@ button{
     cursor:pointer;
 }
 
+img{
+    max-width:100%;
+    height:auto;
+}
+
 footer{
     text-align:center;
     padding:20px;
@@ -135,32 +142,7 @@ footer{
 </style>
 
 </head>
-    
-<script>
 
-document.querySelectorAll("[data-lang]").forEach(btn => {
-
-    btn.addEventListener("click", () => {
-
-        let lang = btn.dataset.lang;
-
-        document
-            .querySelectorAll(".lang-block")
-            .forEach(block => {
-
-                block.classList.remove("active");
-
-            });
-
-        document
-            .getElementById(lang)
-            .classList.add("active");
-
-    });
-
-});
-
-</script>
 <body>
 
 <header>
@@ -184,25 +166,23 @@ Architecture Mondiale des Ressources
 <a href="contact.html">Contact</a>
 
 </nav>
- 
-<div class="zone-bleue">
 
+<div class="zone-bleue">
 Token Ressource • Participation • Décision • Gouvernance
 </div>
 
-<div style="text-align:center;padding:20px;">  
-    
-    <a href="https://peuplitique.github.io/peuplitique-app-/"
+<div style="text-align:center;padding:20px;">
+
+<a href="https://peuplitique.github.io/peuplitique-app-/"
    class="btn-application"
    target="_blank"
    rel="noopener noreferrer">
 
- Accéder à l'Application Peuplitique
+Accéder à l'Application Peuplitique
 
 </a>
 
 </div>
-
 
 <div class="content">
 
@@ -210,22 +190,20 @@ Token Ressource • Participation • Décision • Gouvernance
 
 <h1>Token Ressource</h1>
 
-
 <div class="sommaire">
 
 <h2>Sommaire</h2>
 
 <ul>
-    <li><a href="#vision">Vision du Token Ressource</a></li>
-    <li><a href="#fonctionnement">Fonctionnement du Token</a></li>
-    <li><a href="#acces">Accès aux décisions</a></li>
-    <li><a href="#consultation">Consultations citoyennes</a></li>
-    <li><a href="#application">Application Peuplitique</a></li>
-    <li><a href="#contact">Contact</a></li>
+<li><a href="#vision">Vision du Token Ressource</a></li>
+<li><a href="#fonctionnement">Fonctionnement du Token</a></li>
+<li><a href="#acces">Accès aux décisions</a></li>
+<li><a href="#consultation">Consultations citoyennes</a></li>
+<li><a href="#application">Application Peuplitique</a></li>
+<li><a href="#contact">Contact</a></li>
 </ul>
 
-</div>    
-       
+</div>
 
 <h2 id="vision">Vision du Token Ressource</h2>
 
@@ -279,26 +257,32 @@ Les décisions et consultations sont opérées depuis l'application Peuplitique.
 </p>
 
 <h2 id="consultation">Consultations citoyennes</h2>
+
 <p>
 Le site présente les propositions et les informations publiques.
 </p>
- 
+
 <p>
-Les votes sécurisés, les consultations citoyennes et les décisions
-de gouvernance sont réalisés depuis l'Application Peuplitique.
+Les votes sécurisés, les consultations citoyennes et les décisions de gouvernance sont réalisés depuis l'Application Peuplitique.
 </p>
- 
+
+<h2 id="application">Application Peuplitique</h2>
+
+<p>
+L'Application Peuplitique regroupe les consultations citoyennes, les votes sécurisés et les mécanismes de gouvernance participative.
+</p>
+
 <div style="text-align:center;padding:20px;">
- 
+
 <a href="https://peuplitique.github.io/peuplitique-app-/"
-class="btn-application"
-target="_blank"
-rel="noopener noreferrer">
- 
- Participer aux votes et décisions
- 
+   class="btn-application"
+   target="_blank"
+   rel="noopener noreferrer">
+
+Participer aux votes et décisions
+
 </a>
- 
+
 </div>
 
 <h2 id="contact">Contact</h2>
@@ -353,9 +337,7 @@ Voting and decision-making functions are managed through the Peuplitique applica
 
 <footer>
 
-<p>
-© Peuplitique Écosystème
-</p>
+<p>© Peuplitique Écosystème</p>
 
 <p>
 Participation • Ressources • Résilience • Gouvernance
@@ -365,21 +347,39 @@ Participation • Ressources • Résilience • Gouvernance
 
 <script>
 
+document.querySelectorAll("[data-lang]").forEach(btn => {
+
+    btn.addEventListener("click", () => {
+
+        let lang = btn.dataset.lang;
+
+        document
+            .querySelectorAll(".lang-block")
+            .forEach(block => block.classList.remove("active"));
+
+        document
+            .getElementById(lang)
+            .classList.add("active");
+
+    });
+
+});
+
 function genererToken(){
 
-const token =
-"PEUP-" +
-crypto.randomUUID()
-.substring(0,8)
-.toUpperCase();
+    const token =
+    "PEUP-" +
+    crypto.randomUUID()
+    .substring(0,8)
+    .toUpperCase();
 
-localStorage.setItem(
-"peuplitique_token",
-token
-);
+    localStorage.setItem(
+        "peuplitique_token",
+        token
+    );
 
-document.getElementById("tokenFR").innerHTML =
-"<strong>" + token + "</strong>";
+    document.getElementById("tokenFR").innerHTML =
+    "<strong>" + token + "</strong>";
 
 }
 
@@ -387,5 +387,4 @@ document.getElementById("tokenFR").innerHTML =
 
 </body>
 </html>
-  
 
