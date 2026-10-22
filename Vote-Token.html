@@ -8,31 +8,7 @@
 <title>Peuplitique Écosystème - Token Ressource</title>
 
 <style>
-<script>
 
-document.querySelectorAll("[data-lang]").forEach(btn => {
-
-    btn.addEventListener("click", () => {
-
-        let lang = btn.dataset.lang;
-
-        document
-            .querySelectorAll(".lang-block")
-            .forEach(block => {
-
-                block.classList.remove("active");
-
-            });
-
-        document
-            .getElementById(lang)
-            .classList.add("active");
-
-    });
-
-});
-
-</script>
 body{
     margin:0;
     font-family:Arial,sans-serif;
@@ -159,7 +135,32 @@ footer{
 </style>
 
 </head>
+    
+<script>
 
+document.querySelectorAll("[data-lang]").forEach(btn => {
+
+    btn.addEventListener("click", () => {
+
+        let lang = btn.dataset.lang;
+
+        document
+            .querySelectorAll(".lang-block")
+            .forEach(block => {
+
+                block.classList.remove("active");
+
+            });
+
+        document
+            .getElementById(lang)
+            .classList.add("active");
+
+    });
+
+});
+
+</script>
 <body>
 
 <header>
