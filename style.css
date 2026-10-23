@@ -17,7 +17,7 @@ body {
 
 /* -------------------- TITRES -------------------- */
 h1, h2, h3 {
-    color: #0A3D78; /* bleu foncé */
+    color: #0A3D78;
     margin-bottom: 12px;
 }
 
@@ -31,7 +31,7 @@ h1, h2, h3 {
 }
 
 .sous-titre {
-    color: #3FD1C2; /* bleu-vert */
+    color: #3FD1C2;
     font-size: 20px;
     margin-bottom: 10px;
 }
@@ -44,26 +44,48 @@ h1, h2, h3 {
     margin: 12px 0 20px 0;
 }
 
-/* -------------------- SOMMAIRE HORIZONTAL -------------------- */
-.sommaire-horizontal {
-    display: flex;
-    gap: 15px;
-    padding: 12px 0;
-    border-bottom: 3px solid #0A3D78;
+/* -------------------- SOMMAIRE -------------------- */
+.sommaire {
     margin-bottom: 25px;
 }
 
-.sommaire-horizontal a {
+.sommaire ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 12px 0;
+    border-bottom: 3px solid #0A3D78;
+}
+
+.sommaire a {
     color: #0A3D78;
     text-decoration: none;
     font-weight: bold;
 }
 
-.sommaire-horizontal a:hover {
+.sommaire a:hover,
+.sommaire a.active {
     color: #3FD1C2;
 }
 
-/* --- CARTES MODERNES --- */
+/* -------------------- LANGUES -------------------- */
+.lang-switch {
+    text-align: center;
+    margin: 15px 0;
+}
+
+.lang-switch a {
+    color: #0A3D78;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.lang-switch a:hover {
+    color: #3FD1C2;
+}
+
+/* -------------------- CARTES -------------------- */
 .carte {
     background: #ffffff;
     border-radius: 12px;
@@ -72,12 +94,29 @@ h1, h2, h3 {
     box-shadow: 0 4px 12px rgba(0,0,0,0.08);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
+
 .carte:hover {
     transform: translateY(-4px);
     box-shadow: 0 6px 18px rgba(0,0,0,0.12);
 }
 
-/* --- BOUTONS MODERNES --- */
+/* -------------------- LIENS DANS LES CARTES -------------------- */
+.carte a {
+    color: #3FD1C2;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.carte a:hover {
+    color: #0A3D78;
+    text-decoration: underline;
+}
+
+.carte li {
+    margin: 10px 0;
+}
+
+/* -------------------- BOUTONS -------------------- */
 .btn {
     display: inline-block;
     background: #3FD1C2;
@@ -88,15 +127,17 @@ h1, h2, h3 {
     font-weight: 600;
     transition: background 0.2s ease, transform 0.2s ease;
 }
+
 .btn:hover {
     background: #32b5a9;
     transform: translateY(-2px);
 }
 
-/* --- FORMULAIRES --- */
+/* -------------------- FORMULAIRES -------------------- */
 form {
     margin-top: 20px;
 }
+
 input[type="text"],
 textarea {
     width: 100%;
@@ -106,37 +147,48 @@ textarea {
     margin-bottom: 16px;
     font-size: 16px;
 }
+
 textarea {
     min-height: 140px;
 }
+
 input[type="submit"] {
     background: #3FD1C2;
-    color: #fff;
+    color: white;
     border: none;
     padding: 14px 24px;
     border-radius: 8px;
     cursor: pointer;
-    font-size: 16px;
     font-weight: 600;
-    transition: background 0.2s ease, transform 0.2s ease;
-}
-input[type="submit"]:hover {
-    background: #32b5a9;
-    transform: translateY(-2px);
 }
 
-/* --- LISTE DES SUJETS --- */
+input[type="submit"]:hover {
+    background: #32b5a9;
+}
+
+/* -------------------- SUJETS -------------------- */
 .liste-sujets {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
+
 .sujet {
-    background: #fff;
+    background: white;
     padding: 18px;
     border-radius: 10px;
     box-shadow: 0 3px 10px rgba(0,0,0,0.06);
 }
+
 .sujet h3 {
     margin-top: 0;
+}
+
+/* -------------------- FOOTER -------------------- */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    color: #666;
+    border-top: 1px solid #ddd;
 }
