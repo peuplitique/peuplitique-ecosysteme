@@ -3,15 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <title>Secteurs recomposés — Ressources, IA, Transports & Innovation</title>
+<link rel="stylesheet" href="design.css">
 </head>
-
+<body>
+<script src="lang.js"></script>
+</script>
 <body>
 
 <header class="header">
     <h1>Secteurs recomposés — Peuplitique</h1>
     <p>Ressources rares, IA, santé, agriculture, énergie, transports et innovation de véhicules volants.</p>
 </header>
-
 <nav class="sommaire-horizontal">
     <ul>
         <li><a href="#sante">Santé</a></li>
@@ -27,8 +29,11 @@
     </ul>
 </nav>
 
+<div data-lang="fr">
+
 <section class="bloc" id="sante">
     <h2>1. Secteur Santé</h2>
+
     <p>La santé devient un secteur connecté aux ressources rares et à l’IA.</p>
     <ul>
         <li>Gallium + IA → capteurs médicaux souverains (diagnostic, suivi en temps réel).</li>
@@ -138,15 +143,30 @@
     <ul>
         <li>Santé connectée aux capteurs et à l’énergie souveraine.</li>
         <li>Agriculture reliée au sol, à l’eau et aux réseaux intelligents.</li>
-        <liÉnergie circulaire basée sur hydrogène, batteries et éoliennes souveraines.</li>
+        <li>Énergie circulaire basée sur hydrogène, batteries et éoliennes souveraines.</li>
         <li>Transports routiers, maritimes, aériens et volants optimisés par l’IA.</li>
         <li>Logements et infrastructures intégrés dans des micro‑réseaux coopératifs.</li>
     </ul>
 </section>
+</div>
+<div data-lang="en" style="display:none;">
+
+<h2>Recomposed Sectors</h2>
+
+<p>
+This page presents the transformation of health, agriculture,
+energy, housing, industry and transportation through artificial
+intelligence and strategic resources.
+</p>
+
+</div>
 
 <footer class="footer">
     <p>Peuplitique — Ressources, IA, Transports & Innovation citoyenne.</p>
+</p>
 </footer>
+
+<script src="lang.js"></script>
 
 </body>
 </html>
