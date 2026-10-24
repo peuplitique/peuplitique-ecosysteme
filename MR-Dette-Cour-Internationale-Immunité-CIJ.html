@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
+
+ <head>
   <meta charset="UTF-8">
   <title>MR-Dette-Cour-Internationale-Souveraineté-Citoyenne</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <link rel="stylesheet" href="style.css">
+
   <style>
+
     body {
       font-family: Arial, sans-serif;
       margin: 0;
@@ -14,34 +18,92 @@
       color: #222;
       line-height: 1.6;
     }
+
     .zone-blanche {
       padding: 40px 20px;
       max-width: 900px;
       margin: auto;
     }
+
     h2 {
       color: #3FD1C2;
       margin-bottom: 10px;
     }
+
     h3 {
       margin-top: 25px;
       color: #333;
     }
+
     .accent {
       font-weight: bold;
       color: #3FD1C2;
       margin-top: 10px;
     }
+
     pre {
       background: #f5f5f5;
       padding: 20px;
       border-radius: 8px;
       overflow-x: auto;
     }
-  </style>
-</head>
 
-<body>
+    .contenu {
+      width: 100%;
+    }
+
+    /* =========================
+       RESPONSIVE MOBILE
+       ========================= */
+
+    @media (max-width: 768px) {
+
+      .zone-blanche {
+        max-width: 100%;
+        padding: 20px 15px;
+        box-sizing: border-box;
+      }
+
+      .contenu {
+        width: 100%;
+      }
+
+      h2 {
+        font-size: 1.4rem;
+      }
+
+      h3 {
+        font-size: 1.1rem;
+      }
+
+      p,
+      li {
+        font-size: 16px;
+      }
+
+      pre {
+        overflow-x: auto;
+        font-size: 13px;
+        padding: 12px;
+      }
+
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+
+      table {
+        display: block;
+        overflow-x: auto;
+        width: 100%;
+      }
+    }
+
+  </style>
+
+</head> 
+  
+  <body>
 <section class="zone-blanche">
 
 <h2>Position dans l'écosystème</h2>
