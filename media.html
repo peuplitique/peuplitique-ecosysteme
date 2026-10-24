@@ -5,11 +5,109 @@
 <head>
     <meta charset="UTF-8">
     <title>Peuplitique – Média citoyen</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="design.css">
-    
+  <style>
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #ffffff;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    .zone-blanche {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .contenu {
+      width: 100%;
+      overflow-wrap: break-word;
+    }
+
+    h2 {
+      color: #3FD1C2;
+      margin-bottom: 10px;
+    }
+
+    h3 {
+      margin-top: 25px;
+      color: #333;
+    }
+
+    .accent {
+      font-weight: bold;
+      color: #3FD1C2;
+      margin-top: 10px;
+    }
+
+    pre {
+      background: #f5f5f5;
+      padding: 20px;
+      border-radius: 8px;
+      overflow-x: auto;
+    }
+
+    /* =========================
+       RESPONSIVE MOBILE
+       ========================= */
+
+    @media (max-width: 768px) {
+
+      .article-section,
+      .content,
+      .zone-blanche,
+      .contenu {
+        max-width: 100%;
+        padding: 20px 15px;
+        box-sizing: border-box;
+      }
+
+      h1 {
+        font-size: 1.8rem;
+        text-align: center;
+      }
+
+      h2 {
+        font-size: 1.4rem;
+      }
+
+      h3 {
+        font-size: 1.1rem;
+      }
+
+      p,
+      li {
+        font-size: 16px;
+      }
+
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+
+      table {
+        display: block;
+        overflow-x: auto;
+      }
+
+      pre {
+        font-size: 0.9rem;
+        padding: 12px;
+        overflow-x: auto;
+      }
+    }
+
+  </style>
+
 </head>
 
 <body>
+  
 
     <!-- HEADER BLEU -->
     <header class="zone-bleue">
@@ -135,48 +233,39 @@ Formulaire de contact
 </li>
  
 <li>
-<a href="https://peuplitique.github.io/">
-Site principal Peuplitique
+<a href="https://peuplitique.github.io/"
+   target="_blank"
+   rel="noopener noreferrer">
+   Site principal Peuplitique
+</a>
+    
+    
+
+</li>
+ 
+<li>
+<a href="https://peuplitique.github.io/peuplitique-app-/"
+   target="_blank"
+   rel="noopener noreferrer">
+   Application Peuplitique
+</a>
 </a>
 </li>
  
 <li>
-<a href="https://peuplitique.github.io/peuplitique-app-/">
-Application Peuplitique
+<a href="https://github.com/peuplitique"
+   target="_blank"
+   rel="noopener noreferrer">
+   GitHub Peuplitique
 </a>
-</li>
- 
-<li>
-<a href="https://github.com/peuplitique">
-GitHub Peuplitique
 </a>
 </li>
 </ul>
 </div>
 
-Et dans design.css, ajoutez :
 
-CSS
-.carte a {
-color: #3FD1C2;
-text-decoration: none;
-font-weight: 600;
-transition: 0.3s;
-}
- 
-.carte a:hover {
-color: #ffffff;
-text-decoration: underline;
-}
- 
-.carte ul {
-padding-left: 20px;
-}
- 
-.carte li {
-margin: 10px 0;
-}
-    
+
+
 
     <!-- VERSION ANGLAISE -->
     <div data-lang="en" style="display:none;">
@@ -267,8 +356,9 @@ margin: 10px 0;
             </ul>
         </div>
 
-    </div>
-<!-- CONTACT FR / EN -->
+    </div>  <!-- fin EN -->
+
+  <!-- CONTACT FR / EN -->
 
 <div class="carte">
 
@@ -283,52 +373,40 @@ margin: 10px 0;
         </p>
 
         <ul>
-            <li>
-               
-         <!-- CONTACT FR / EN -->
+            <li>      
+        
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdnddp60lx2UKO3RU__Ac5QkK2hIPbb-8QvxSnVYCnHP_lpkQ/viewform"
+       target="_blank"
+       rel="noopener noreferrer">
+       Formulaire de contact
+    </a>
+</li>
 
-<div class="carte">
+<li>
+    <a href="https://peuplitique.github.io/"
+       target="_blank"
+       rel="noopener noreferrer">
+       Site principal Peuplitique
+    </a>
+</li>
 
-    <div data-lang="fr">
+<li>
+    <a href="https://peuplitique.github.io/peuplitique-app-/"
+       target="_blank"
+       rel="noopener noreferrer">
+       Application Peuplitique
+    </a>
+</li>
 
-        <h2>Contact</h2>
-
-        <p>
-            Vous souhaitez contribuer, proposer une source,
-            signaler une erreur, participer au développement
-            ou rejoindre le Média citoyen Peuplitique ?
-        </p>
-
-        <ul>
-            <li>
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdnddp60lx2UKO3RU__Ac5QkK2hIPbb-8QvxSnVYCnHP_lpkQ/viewform" target="_blank">
-                    Formulaire de contact
-                </a>
-            </li>
-
-            <li>
-                <a href="https://peuplitique.github.io/" target="_blank">
-                    Site principal Peuplitique
-                </a>
-            </li>
-
-            <li>
-                <a href="https://peuplitique.github.io/peuplitique-app-/" target="_blank">
-                    Application Peuplitique
-                </a>
-            </li>
-
-            <li>
-                <a href="https://github.com/peuplitique" target="_blank">
-                    GitHub Peuplitique
-                </a>
-            </li>
-
-        </ul>
-
-    </div>
-
-    <div data-lang="en" style="display:none;">
+<li>
+    <a href="https://github.com/peuplitique"
+       target="_blank"
+       rel="noopener noreferrer">
+       GitHub Peuplitique
+    </a>
+</li>
+        
+ <div data-lang="en" style="display:none;">
 
         <h2>Contact</h2>
 
@@ -340,35 +418,57 @@ margin: 10px 0;
 
         <ul>
             <li>
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdnddp60lx2UKO3RU__Ac5QkK2hIPbb-8QvxSnVYCnHP_lpkQ/viewform" target="_blank">
-                    Contact Form
-                </a>
-            </li>
+               
+            <div data-lang="en" style="display:none;">
 
-            <li>
-                <a href="https://peuplitique.github.io/" target="_blank">
-                    Peuplitique Main Website
-                </a>
-            </li>
+    <h2>Contact</h2>
 
-            <li>
-                <a href="https://peuplitique.github.io/peuplitique-app-/" target="_blank">
-                    Peuplitique Application
-                </a>
-            </li>
+    <p>
+        Would you like to contribute, suggest a source,
+        report an error or participate in the development
+        of Peuplitique Citizen Media?
+    </p>
 
-            <li>
-                <a href="https://github.com/peuplitique" target="_blank">
-                    Peuplitique GitHub
-                </a>
-            </li>
+    <ul>
 
-        </ul>
+        <li>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdnddp60lx2UKO3RU__Ac5QkK2hIPbb-8QvxSnVYCnHP_lpkQ/viewform"
+               target="_blank"
+               rel="noopener noreferrer">
+               Contact Form
+            </a>
+        </li>
 
-    </div>
+        <li>
+            <a href="https://peuplitique.github.io/"
+               target="_blank"
+               rel="noopener noreferrer">
+               Main Website
+            </a>
+        </li>
 
-</div>       
-                
+        <li>
+            <a href="https://peuplitique.github.io/peuplitique-app-/"
+               target="_blank"
+               rel="noopener noreferrer">
+               Peuplitique Application
+            </a>
+        </li>
+
+        <li>
+            <a href="https://github.com/peuplitique"
+               target="_blank"
+               rel="noopener noreferrer">
+               GitHub Repository
+            </a>
+        </li>
+
+    </ul>
+
+</div>  
+ </div> <!-- fin EN -->  
+</div>  <!-- fin carte contact --> 
+    </section>
 <footer>
     <p>© Peuplitique – Média citoyen</p>
 </footer>
