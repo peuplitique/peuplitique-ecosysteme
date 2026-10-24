@@ -2,11 +2,111 @@
 <html lang="fr">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">    
 <title>Peuplitique – Débat citoyen</title>
 <link rel="stylesheet" href="design.css">
+
+<style>
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #ffffff;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    .zone-blanche {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .contenu {
+      width: 100%;
+      overflow-wrap: break-word;
+    }
+
+    h2 {
+      color: #3FD1C2;
+      margin-bottom: 10px;
+    }
+
+    h3 {
+      margin-top: 25px;
+      color: #333;
+    }
+
+    .accent {
+      font-weight: bold;
+      color: #3FD1C2;
+      margin-top: 10px;
+    }
+
+    pre {
+      background: #f5f5f5;
+      padding: 20px;
+      border-radius: 8px;
+      overflow-x: auto;
+    }
+
+    /* =========================
+       RESPONSIVE MOBILE
+       ========================= */
+
+    @media (max-width: 768px) {
+
+      .article-section,
+      .content,
+      .zone-blanche,
+      .contenu {
+        max-width: 100%;
+        padding: 20px 15px;
+        box-sizing: border-box;
+      }
+
+      h1 {
+        font-size: 1.8rem;
+        text-align: center;
+      }
+
+      h2 {
+        font-size: 1.4rem;
+      }
+
+      h3 {
+        font-size: 1.1rem;
+      }
+
+      p,
+      li {
+        font-size: 16px;
+      }
+
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+
+      table {
+        display: block;
+        overflow-x: auto;
+      }
+
+      pre {
+        font-size: 0.9rem;
+        padding: 12px;
+        overflow-x: auto;
+      }
+    }
+
+  </style>
+
 </head>
-<script src="lang.js"></script>
+
 <body>
+
 
 <header class="zone-bleue">
 
@@ -32,8 +132,6 @@
         <li><a href="contact.html" class="active">Contact</a></li>
     </ul>
 </nav>
-
-<section class="content">
 
 <section class="content">
 
@@ -112,60 +210,44 @@
         </p>
     </div>
 
-    <div class="carte">
-        <h2>Fonctionnement pour l’utilisateur</h2>
-        <p>Choisir l’espace, choisir un secteur,
-                s’inscrire et participer.
-            </p>
-        </div>
+   <div class="carte">
 
-    </div>
+    <h2>Fonctionnement</h2>
+
+    <p>
+        Chaque citoyen peut proposer un argument, répondre à un autre,
+        voter, analyser et contribuer à la décision finale.
+    </p>
+
+    <p>
+        Le débat citoyen permet d’examiner les solutions,
+        confronter les arguments, identifier les points d’accord
+        et préparer les décisions collectives.
+    </p>
+
+</div> 
+
 
     <!-- VERSION ANGLAISE -->
     <div data-lang="en" style="display:none;">
 
         <div class="carte">
-            <h2>Purpose of the Citizen Debate</h2>
-            <p>
-                The citizen debate allows collective analysis of arguments,
-                comparison of viewpoints and informed decision-making.
-            </p>
-        </div>
+            <div class="carte">
 
-        <div class="carte">
-            <h2>How it Works</h2>
-            <p>
-                Every citizen can propose an argument,
-                reply to others, vote and contribute
-                to the final decision.
-            </p>
-        </div>
+    <h2>Purpose of the Citizen Debate</h2>
 
-    </div>
-
-</section>
-
-<footer>
-    <p>© Peuplitique – Débat citoyen</p>
-</footer>
-
-<script src="lang.js"></script>
-
-</body>   
-
-    <!--  VERSION ANGLAISE -->
-    <div data-lang="en" style="display:none;">
-
-        <div class="carte">
-            <h2>Purpose of the citizen debate</h2>
-            <p>Citizen debate makes it possible to examine solutions,
+    <p>
+        Citizen debate makes it possible to examine solutions,
         compare arguments, identify common ground and prepare
         collective decisions.
     </p>
+
 </div>
 
 <div class="carte">
+
     <h2>Debate Structure</h2>
+
     <ul>
         <li><strong>1. Presentation of the topic</strong></li>
         <li><strong>2. Arguments in favor</strong></li>
@@ -173,9 +255,26 @@
         <li><strong>4. Open questions</strong></li>
         <li><strong>5. Citizen summary</strong></li>
     </ul>
-</div>
 
-<div class="carte">
+</div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <h2>Purpose of the Citizen Debate</h2>
+            <p>
+                The citizen debate allows collective analysis of arguments,
+                comparison of viewpoints and informed decision-making.
+            </p>
+        </div>
+
+       <div class="carte">
     <h2>Closed National Debate</h2>
     <p>
         The closed national debate is reserved for citizens of a country.
@@ -260,8 +359,7 @@
 <div class="carte">
     <h2>User Participation Process</h2>
     <p>
-        Participation is simple:
-        choose a space (closed national debate or open international debate),
+    Choose a space (closed national debate or open international debate),
         select a sector, register, participate through comments,
         proposals, intermediate votes and reports,
         then follow the summaries that directly contribute
@@ -277,3 +375,4 @@
 <script src="lang.js"></script>
 
 </body>
+</html>
