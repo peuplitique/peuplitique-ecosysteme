@@ -342,6 +342,9 @@
     <a href="#" onclick="setLang('fr')">FR</a> |
     <a href="#" onclick="setLang('en')">EN</a>
 </div>
+<div class="fr">
+
+VERSION FRANÇAISE    
 <nav class="sommaire">
 <ul>
 <li><a href="index.html">Accueil</a></li>
@@ -444,28 +447,92 @@
 
 </div>
 
-<hr>
+<div class="en" style="display:none;">
+VERSION ANGLAISE
+...
+</div>
 
-<h2>English Version</h2>
+<h2>Complete Mapping of the Peuplitique Ecosystem</h2>
 
-<h3>Complete Mapping of the Peuplitique Ecosystem</h3>
+<h3>Themes</h3>
+<h3>Ecosystem</h3>
+<h3>Health</h3>
 
 <ul>
-<li>Themes</li>
-<li>Ecosystem</li>
-<li>Health</li>
-<li>Environment</li>
-<li>Resource Currency (MR)</li>
-<li>Governance and Institutions</li>
-<li>Economy</li>
-<li>Technology • AI • Industry</li>
-<li>Citizen Participation</li>
+<li>Citizen Field Research</li>
+<li>Independent Science</li>
+<li>Care and Protocols</li>
+<li>Health & Environment Reorganized Sectors</li>
+</ul>
+
+<h3>Environment</h3>
+
+<ul>
+<li>Food Autonomy</li>
+<li>Global Field Governance</li>
+</ul>
+
+<h3>Resource Currency (MR)</h3>
+
+<ul>
+<li>Foundations of the Global MR System</li>
+<li>Global Resource Currency</li>
+<li>Detailed Resource Currency</li>
+<li>Rare Metals Fusion</li>
+<li>MR Debt - International Court - Immunity - ICJ</li>
+</ul>
+
+<h3>Governance and Institutions</h3>
+
+<ul>
+<li>Global Resource Architecture</li>
+<li>New Institutions</li>
+<li>International Citizens Assembly Court</li>
+<li>Independent International Tribunal</li>
+<li>Vote Token</li>
+<li>Global Reorganization</li>
+</ul>
+
+<h3>Economy</h3>
+
+<ul>
+<li>Economic Thought of Real Values</li>
+</ul>
+
+<h3>Technology • AI • Industry</h3>
+
+<ul>
+<li>Rare Resources • Engineering • Industry • AI • Ecological Transport</li>
+</ul>
+
+<h3>Citizen Participation</h3>
+
+<ul>
+<li>Debate</li>
+<li>Forum</li>
+<li>Topic</li>
+</ul>
+
+<h3>Media</h3>
+
+<ul>
 <li>Media</li>
+</ul>
+
+<h3>Legal</h3>
+
+<ul>
 <li>Legal</li>
+</ul>
+
+<h3>Contact</h3>
+
+<ul>
 <li>Contact</li>
 </ul>
 
-<h3>Accès rapides</h3>
+</div>   
+    <h3>Accès rapides</h3>
 
 <ul>
 
@@ -531,7 +598,44 @@ Forum
     </p>
 </footer>
 
-<script src="lang.js"></script>
+<script>
+function setLang(lang) {
+
+    var fr = document.querySelectorAll('.fr');
+    var en = document.querySelectorAll('.en');
+
+    if (lang === 'en') {
+
+        fr.forEach(function(item) {
+            item.style.display = 'none';
+        });
+
+        en.forEach(function(item) {
+            item.style.display = 'block';
+        });
+
+    } else {
+
+        fr.forEach(function(item) {
+            item.style.display = 'block';
+        });
+
+        en.forEach(function(item) {
+            item.style.display = 'none';
+        });
+
+    }
+
+    localStorage.setItem('lang', lang);
+}
+
+window.onload = function() {
+
+    var lang = localStorage.getItem('lang') || 'fr';
+
+    setLang(lang);
+};
+</script>
 
 </body>
 </html>
