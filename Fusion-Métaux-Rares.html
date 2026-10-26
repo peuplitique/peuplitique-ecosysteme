@@ -433,15 +433,49 @@ VERSION ANGLAISE
 </div>   
 
 <footer class="footer">
-
     <p>
         Peuplitique – Fusions des métaux rares et recomposition industrielle
+    
     </p>
-
 </footer>
 
+<script>
+function setLang(lang) {
+    localStorage.setItem('lang', lang);
+
+    document.querySelectorAll('.fr').forEach(el => {
+        el.style.display = (lang === 'fr') ? 'block' : 'none';
+    });
+
+    document.querySelectorAll('.en').forEach(el => {
+        el.style.display = (lang === 'en') ? 'block' : 'none';
+    });
+}
+
+window.onload = function () {
+    setLang(localStorage.getItem('lang') || 'fr');
+};
+</script>
+
 </body>
-</html>``
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
 
 
 
