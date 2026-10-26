@@ -49,6 +49,28 @@
       border-radius: 8px;
       overflow-x: auto;
     }
+*{
+    box-sizing:border-box;
+}
+
+html,
+body{
+    overflow-x:hidden;
+    max-width:100%;
+}
+
+.article-section{
+    max-width:900px;
+    margin:auto;
+    padding:20px;
+}
+
+img,
+table,
+iframe{
+    max-width:100%;
+}
+
 
     /* =========================
        RESPONSIVE MOBILE
@@ -107,10 +129,15 @@
 <body>
 <header class="zone-bleue">
     <h1>PEUPLITIQUE</h1>
-    <p class="Fondations-du-Système-Globale-MR">
+    <p class=<title>Fondations-Systme-Global-MR</title>
 </p>
     <div class="ligne"></div>
 </header>
+  <div class="fr">
+
+VERSION FRANÇAISE
+
+
 <nav class="sommaire">
 <ul>
 <li><a href="index.html">Accueil</a></li>
@@ -376,9 +403,10 @@ Souveraineté citoyenne • Production locale → MR
     </pre>
   </div>
 </section>
-
-<!-- ========================= -->
-<!-- 6. MODULE PEUPLITIQUE     -->
+    
+<!-- =========================
+     6. MODULE PEUPLITIQUE
+     ========================= -->
 
 
 <section id="module-peuplitique-mr" class="zone-blanche">
@@ -431,8 +459,61 @@ Souveraineté citoyenne • Production locale → MR
 
 <li><a href="Vote-Token.html">Vote Token</a></li>
 </ul>
-  
 
+
+
+<h3>Accès rapides</h3>
+
+<ul>
+
+<li>
+<a href="index.html">
+Accueil du site
+</a>
+</li>
+
+<li>
+<a href="contact.html">
+Contact
+</a>
+</li>
+
+<li>
+<a href="media.html">
+Média
+</a>
+</li>
+
+<li>
+<a href="debat.html">
+Débats citoyens
+</a>
+</li>
+
+<li>
+<a href="forum.html">
+Forum
+</a>
+</li>
+
+<li>
+<a href="contact.html">
+Formulaire de contact
+</a>
+</li>
+<li>
+<a href="https://peuplitique.github.io/peuplitique-ecosysteme/" target="_blank">
+        Peuplitique Site
+  </a>
+<li>
+    <li>
+    <a href="https://github.com/peuplitique/peuplitique-app-" target="_blank">
+        Peuplitique App
+    </a>
+</li>
+        
+</ul>
+</section>
 <div style="text-align:center; margin:30px 0;">
     <a href="index.html"
        style="color:#3FD1C2; font-weight:bold; text-decoration:none;">
@@ -440,17 +521,114 @@ Souveraineté citoyenne • Production locale → MR
     </a>
 </div>
 
+<div class="en" style="display:none;">
+
+VERSION ANGLAISE
+
+<h2>Foundations of the Global MR System</h2>
+<p>
+A cooperative global financial model based on real resources,
+citizen governance, local autonomy and sustainable production.
+</p>
+<section id="countries-without-resources" class="zone-blanche">
+  <div class="contenu">
+
+    <h2>How Countries with Limited Resources Can Participate</h2>
+
+    <p>
+      The MR system is inclusive: even countries with few natural resources
+      can generate MR value.
+    </p>
+
+    <h3>1. Solar Energy</h3>
+    <p>
+      Even resource-poor countries often possess abundant sunlight,
+      which can be converted into MR.
+    </p>
+
+    <h3>2. Recycling</h3>
+    <p>
+      Waste becomes a valuable resource through recycling and MR production.
+    </p>
+
+    <h3>3. Agriculture</h3>
+    <p>
+      Cultivated land contributes agricultural production that generates MR.
+    </p>
+
+    <h3>4. Human Work</h3>
+    <p>
+      Local production, services, crafts and industry contribute to MR.
+    </p>
+
+    <h3>5. Shared Technology</h3>
+
+    <p>Partner countries can provide:</p>
+
+    <ul>
+      <li>solar panels;</li>
+      <li>batteries;</li>
+      <li>hydrogen technologies;</li>
+      <li>recycling facilities;</li>
+      <li>infrastructure.</li>
+    </ul>
+
+    <p>
+      In exchange for MR, without debt mechanisms.
+    </p>
+
+    <p class="accent">
+      Every country can generate its own MR.
+    </p>
+
+  </div>
+</section>
+
+</div>
+    
 <footer class="footer">
     <p>
-        Peuplitique – Fondations-du-Système-Global-MR
+        Peuplitique – Ecosystème
     </p>
 </footer>
 
-<script src="lang.js"></script>
+<script>
+function setLang(lang) {
+    localStorage.setItem('lang', lang);
+
+    document.querySelectorAll('.fr').forEach(el => {
+        el.style.display = (lang === 'fr') ? 'block' : 'none';
+    });
+
+    document.querySelectorAll('.en').forEach(el => {
+        el.style.display = (lang === 'en') ? 'block' : 'none';
+    });
+}
+
+window.onload = function () {
+    setLang(localStorage.getItem('lang') || 'fr');
+};
+</script>
 
 </body>
 </html>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
 
 
   
