@@ -51,6 +51,28 @@
     .contenu {
       width: 100%;
     }
+*{
+    box-sizing:border-box;
+}
+
+html,
+body{
+    overflow-x:hidden;
+    max-width:100%;
+}
+
+.article-section{
+    max-width:900px;
+    margin:auto;
+    padding:20px;
+}
+
+img,
+table,
+iframe{
+    max-width:100%;
+}
+
 
     /* =========================
        RESPONSIVE MOBILE
@@ -104,8 +126,47 @@
 </head> 
   
   <body>
-<section class="zone-blanche">
 
+<header>
+ 
+   
+ <div class="fr">
+
+VERSION FRANÇAISE
+
+  
+   <section class="zone-blanche">
+<header class="zone-bleue">
+    <h1>PEUPLITIQUE</h1>
+    <p class="sous-titre">
+        MR-Dette-Cour-Internationale-Immunité-CIJ
+    </p>
+    <div class="ligne"></div>
+</header>
+
+
+<nav class="sommaire">
+<ul>
+<li><a href="index.html">Accueil</a></li>
+<li><a href="thematiques.html">Thématiques</a></li>
+<li><a href="ecosysteme.html">Écosystème</a></li>
+<li><a href="Recherche-citoyenne-de-terrain.html">Recherche</a></li>
+<li><a href="Science-Indépendante.html">Science</a></li>
+<li><a href="Autonomie-Alimentaire.html">Autonomie</a></li>
+<li><a href="MR-Monnaie-Ressource-Mondiale.html">MR</a></li>
+<li><a href="Architecture-Mondiale-Des-Ressources.html">Gouvernance</a></li>
+<li><a href="tribunal-international-independant.html">Tribunal</a></li>
+<li><a href="debat.html">Débat</a></li>
+<li><a href="forum.html">Forum</a></li>
+<li><a href="media.html">Média</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</nav>
+
+
+
+
+    
 <h2>Position dans l'écosystème</h2>
 
 <p>
@@ -362,7 +423,165 @@ Fondations du Système Global MR
       L’Assemblée citoyenne devient la nouvelle forme de pouvoir souverain.
     </p>
   </div>
+<h3>Accès rapides</h3>
+
+<ul>
+
+<li>
+<a href="index.html">
+Accueil du site
+</a>
+</li>
+
+<li>
+<a href="contact.html">
+Contact
+</a>
+</li>
+
+<li>
+<a href="media.html">
+Média
+</a>
+</li>
+
+<li>
+<a href="debat.html">
+Débats citoyens
+</a>
+</li>
+
+<li>
+<a href="forum.html">
+Forum
+</a>
+</li>
+
+<li>
+<a href="contact.html">
+Formulaire de contact
+</a>
+</li>
+
+</ul>
+
+   
+ <li>
+<a
+Peuplitique Site
+</li>
+</a>
+</li>
+
+<li>
+<a 
+ Peuplitique Appli
+
+</a>
+</li>
 </section>
+<div style="text-align:center; margin:30px 0;">
+    <a href="index.html"
+       style="color:#3FD1C2; font-weight:bold; text-decoration:none;">
+       ← Retour à l'accueil
+    </a>
+</div>
+     
+
+
+<div class="en" style="display:none;">
+...
+VERSION ANGLAISE
+<header class="zone-bleue">
+    <h1>PEUPLITIQUE</h1>
+    <p class="sous-titre">
+        MR-Debt-International-Court-ICJ-Immunity
+    </p>
+    <div class="ligne"></div>
+</header>
+
+<nav class="sommaire">
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="thematiques.html">Themes</a></li>
+<li><a href="ecosysteme.html">Ecosystem</a></li>
+<li><a href="Recherche-citoyenne-de-terrain.html">Research</a></li>
+<li><a href="Science-Indépendante.html">Science</a></li>
+<li><a href="Autonomie-Alimentaire.html">Autonomy</a></li>
+<li><a href="MR-Monnaie-Ressource-Mondiale.html">MR</a></li>
+<li><a href="Architecture-Mondiale-Des-Ressources.html">Governance</a></li>
+<li><a href="tribunal-international-independant.html">Tribunal</a></li>
+<li><a href="debat.html">Debate</a></li>
+<li><a href="forum.html">Forum</a></li>
+<li><a href="media.html">Media</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</nav>
+
+<h2>Position within the Ecosystem</h2>
+
+<p>
+This document serves as a legal and citizen reference
+for the MR system.
+</p>
+
+<p>
+It connects debt, sovereignty,
+citizen representation and international justice
+within the Peuplitique ecosystem.
+</p>
+
+<p>
+<strong>
+Foundations of the Global MR System
+→ Debt and Sovereignty
+→ International Citizens' Assembly
+→ International Citizens' Court
+→ Independent International Tribunal
+</strong>
+</p>
+
+
+
+
+
+
+</ul>
+</section>
+<div style="text-align:center; margin:30px 0;">
+    <a href="index.html"
+       style="color:#3FD1C2; font-weight:bold; text-decoration:none;">
+       ← Retour à l'accueil
+    </a>
+</div>
+
+<footer class="footer">
+    <p>
+        Peuplitique – Accueil
+    </p>
+</footer>
+
+<script>
+function setLang(lang) {
+    localStorage.setItem('lang', lang);
+
+    document.querySelectorAll('.fr').forEach(el => {
+        el.style.display = (lang === 'fr') ? 'block' : 'none';
+    });
+
+    document.querySelectorAll('.en').forEach(el => {
+        el.style.display = (lang === 'en') ? 'block' : 'none';
+    });
+}
+
+window.onload = function () {
+    setLang(localStorage.getItem('lang') || 'fr');
+};
+</script>
 
 </body>
 </html>
+
+
+
+
