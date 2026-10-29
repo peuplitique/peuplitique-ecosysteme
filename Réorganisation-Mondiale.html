@@ -49,6 +49,27 @@
       border-radius: 8px;
       overflow-x: auto;
     }
+*{
+    box-sizing:border-box;
+}
+
+html,
+body{
+    overflow-x:hidden;
+    max-width:100%;
+}
+
+.article-section{
+    max-width:900px;
+    margin:auto;
+    padding:20px;
+}
+
+img,
+table,
+iframe{
+    max-width:100%;
+}
 
     /* =========================
        RESPONSIVE MOBILE
@@ -106,22 +127,40 @@
 
 <body>
 
-<header>
-  <h1>Réorganisation mondiale</h1>
-  <p>Document citoyen expliquant la nouvelle architecture mondiale proposée dans Peuplitique.</p>
-</header>
-<nav class="sommaire-horizontal">
-    <ul>
-        <li><a href="#constat">Constat citoyen</a></li>
-        <li><a href="#remplacements">Remplacement fonctionnel</a></li>
-        <li><a href="#tableau">Tableau de compréhension</a></li>
-        <li><a href="#architecture">Architecture Peuplitique</a></li>
-        <li><a href="#role">Rôle de Peuplitique</a></li>
-        <li><a href="#extensions">Extensions prévues</a></li>
-    </ul>
+<header class="zone-bleue">
+    <h1>PEUPLITIQUE</h1>
+    <p class="sous-titre">
+        Fondations du Système Global MR
+    </p>
+    <div class="ligne"></div>
+
+<div class="fr">
+VERSION FRANÇAISE
+
+<nav class="sommaire">
+<ul>
+<li><a href="index.html">Accueil</a></li>
+<li><a href="thematiques.html">Thématiques</a></li>
+<li><a href="ecosysteme.html">Écosystème</a></li>
+<li><a href="Recherche-citoyenne-de-terrain.html">Recherche</a></li>
+<li><a href="Science-Indépendante.html">Science</a></li>
+<li><a href="Autonomie-Alimentaire.html">Autonomie</a></li>
+<li><a href="MR-Monnaie-Ressource-Mondiale.html">MR</a></li>
+<li><a href="Architecture-Mondiale-Des-Ressources.html">Gouvernance</a></li>
+<li><a href="tribunal-international-independant.html">Tribunal</a></li>
+<li><a href="debat.html">Débat</a></li>
+<li><a href="forum.html">Forum</a></li>
+<li><a href="media.html">Média</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
 </nav>
 
-<main>
+
+Réorganisation-Mondiale
+  
+  <h1>Réorganisation mondiale</h1>
+  <p>Document citoyen expliquant la nouvelle architecture mondiale proposée dans Peuplitique.</p>
+
   
   <!-- SECTION INTRO -->
 <section id="constat">
@@ -256,11 +295,103 @@
   </ul>
 </section>
 
-</main>
+<h3>Accès rapides</h3>
 
-<footer>
-  <p>Peuplitique – Écosystème citoyen mondial · Module Réorganisation mondiale</p>
+<ul>
+
+<li>
+<a href="index.html">
+Accueil du site
+</a>
+</li>
+
+<li>
+<a href="contact.html">
+Contact
+</a>
+</li>
+
+<li>
+<a href="media.html">
+Média
+</a>
+</li>
+
+<li>
+<a href="debat.html">
+Débats citoyens
+</a>
+</li>
+
+<li>
+<a href="forum.html">
+Forum
+</a>
+</li>
+
+<li>
+<a href="contact.html">
+Formulaire de contact
+</a>
+</li>
+
+
+</ul>
+
+   <li>
+Peuplitique Site
+</li>
+
+<li>  Peuplitique App
+</li>
+</ul>
+
+</div>
+
+<div class="en" style="display:none;">
+
+VERSION ANGLAISE
+...
+ 
+   
+
+
+
+
+
+
+  
+<div style="text-align:center; margin:30px 0;">
+    <a href="index.html"
+       style="color:#3FD1C2; font-weight:bold; text-decoration:none;">
+       ← Retour à l'accueil
+    </a>
+</div>
+
+<footer class="footer">
+    <p>
+        Peuplitique – Accueil
+    </p>
 </footer>
+
+<script>
+function setLang(lang) {
+    localStorage.setItem('lang', lang);
+
+    document.querySelectorAll('.fr').forEach(el => {
+        el.style.display = (lang === 'fr') ? 'block' : 'none';
+    });
+
+    document.querySelectorAll('.en').forEach(el => {
+        el.style.display = (lang === 'en') ? 'block' : 'none';
+    });
+}
+
+window.onload = function () {
+    setLang(localStorage.getItem('lang') || 'fr');
+};
+</script>
 
 </body>
 </html>
+
