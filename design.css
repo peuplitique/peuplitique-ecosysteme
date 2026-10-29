@@ -62,6 +62,30 @@ h1, h2, h3 {
 .sommaire-horizontal a:hover {
     color: #3FD1C2;
 }
+.sommaire{
+    background:#f5f5f5;
+    padding:20px;
+    border-left:5px solid #3FD1C2;
+    margin-bottom:25px;
+}
+
+.sommaire ul{
+    list-style:none;
+}
+
+.sommaire li{
+    margin-bottom:8px;
+}
+
+.sommaire a{
+    color:#0A3D78;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.sommaire a:hover{
+    color:#3FD1C2;
+}
 
 /* --- CARTES MODERNES --- */
 .carte {
