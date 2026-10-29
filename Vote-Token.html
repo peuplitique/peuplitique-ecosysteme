@@ -151,6 +151,91 @@
     .lang-block.active{
         display:block;
     }
+*{
+    box-sizing:border-box;
+}
+
+html,
+body{
+    overflow-x:hidden;
+    max-width:100%;
+}
+
+.article-section,
+.article-section{
+    max-width:1000px;
+    margin:auto;
+        .content{
+    max-width:1000px;
+    margin:30px auto;
+    background:white;
+    color:black;
+    padding:30px;
+    border-radius:8px;
+    overflow-wrap:break-word;
+}
+*{
+    box-sizing:border-box;
+}
+
+html,
+body{
+    overflow-x:hidden;
+    max-width:100%;
+}
+
+.article-section{
+    max-width:1000px;
+    margin:auto;
+}
+
+img,
+table,
+iframe{
+    max-width:100%;
+    height:auto;
+}
+
+@media (max-width:768px){
+
+    .article-section,
+    .content,
+    .zone-blanche,
+    .contenu{
+        max-width:100%;
+        padding:20px 15px;
+        box-sizing:border-box;
+    }
+
+    h1{
+        font-size:1.8rem;
+        text-align:center;
+    }
+
+    h2{
+        font-size:1.4rem;
+    }
+
+    h3{
+        font-size:1.1rem;
+    }
+
+    p,
+    li{
+        font-size:16px;
+    }
+
+    table{
+        display:block;
+        overflow-x:auto;
+    }
+
+    pre{
+        font-size:0.9rem;
+        padding:12px;
+        overflow-x:auto;
+    }
+}
 
     </style>
 
@@ -170,30 +255,45 @@
 
 <nav class="menu-haut">
 
-    <a href="index.html">Accueil</a>
-    <a href="economie-integree.html">Économie intégrée</a>
-    <a href="autonomie-alimentaire.html">Autonomie alimentaire</a>
-    <a href="token-ressource.html">Token Ressource</a>
-    <a href="contact.html">Contact</a>
-
+<ul>
+<li><a href="index.html">Accueil</a></li>
+<li><a href="thematiques.html">Thématiques</a></li>
+<li><a href="ecosysteme.html">Écosystème</a></li>
+<li><a href="Recherche-citoyenne-de-terrain.html">Recherche</a></li>
+<li><a href="Science-Indépendante.html">Science</a></li>
+<li><a href="Autonomie-Alimentaire.html">Autonomie</a></li>
+<li><a href="MR-Monnaie-Ressource-Mondiale.html">MR</a></li>
+<li><a href="Architecture-Mondiale-Des-Ressources.html">Gouvernance</a></li>
+<li><a href="tribunal-international-independant.html">Tribunal</a></li>
+<li><a href="debat.html">Débat</a></li>
+<li><a href="forum.html">Forum</a></li>
+<li><a href="media.html">Média</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
 </nav>
 
 <div class="zone-bleue">
     Token Ressource • Participation • Décision • Gouvernance
 </div>
 
+
 <div style="text-align:center;padding:20px;">
 
-    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdnddp60lx2UKO3RU__Ac5QkK2hIPbb-8QvxSnVYCnHP_lpkQ/viewform"
-   target="_blank"
-   rel="noopener noreferrer">
+<ul style="list-style:none;padding:0;">
 
-   Accéder au formulaire de contact
+<li>Peuplitique Site</li>
 
+<li>Peuplitique App</li>
+
+<li>
+<a href="contact.html">
+Formulaire de contact
 </a>
+</li>
+
+</ul>
 
 </div>
-
 
 <div class="content">
 
@@ -284,35 +384,28 @@ L'Application Peuplitique regroupe les consultations citoyennes, les votes sécu
 </p>
 
 
- <div style="text-align:center;padding:20px;">
+<div style="text-align:center;padding:20px;">
 
-    <a href="https://peuplitique.github.io/peuplitique-app-/"
-       class="btn-application"
-       target="_blank"
-       rel="noopener noreferrer">
+<ul style="list-style:none;padding:0;">
 
-       Participer aux votes et décisions
+<li>Peuplitique Site</li>
 
+<li>Peuplitique App</li>
+
+<li>
+<a href="contact.html">
+Formulaire de contact
+</a>
+</li>
+
+</ul>
+
+</div> 
+<div style="text-align:center; margin:30px 0;">
+    <a href="index.html"
+       style="color:#3FD1C2; font-weight:bold; text-decoration:none;">
+       ← Retour à l'accueil
     </a>
-
-</div>       
-
-<h2 id="contact">Contact</h2>
-
-<p>
-    Pour contribuer au projet Peuplitique :
-</p>
-
-<p>
-    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdnddp60lx2UKO3RU__Ac5QkK2hIPbb-8QvxSnVYCnHP_lpkQ/viewform"
-       target="_blank"
-       rel="noopener noreferrer">
-
-        Accéder au formulaire de contact
-
-    </a>
-</p>  
-
 </div>
 
 <div id="en" class="lang-block">
@@ -335,15 +428,23 @@ Voting and decision-making functions are managed through the Peuplitique applica
 
 </div>
 
-<nav class="menu-bas">
-
-<a href="index.html">Accueil</a>
-<a href="economie-integree.html">Économie</a>
-<a href="autonomie-alimentaire.html">Alimentation</a>
-<a href="token-ressource.html">Token</a>
+<nav class="menu-haut">
+<a href="index.html">Home</a>
+<a href="thematiques.html">Themes</a>
+<a href="ecosysteme.html">Ecosystem</a>
+<a href="Recherche-citoyenne-de-terrain.html">Research</a>
+<a href="Science-Indépendante.html">Independent Science</a>
+<a href="Autonomie-Alimentaire.html">Food Autonomy</a>
+<a href="MR-Monnaie-Ressource-Mondiale.html">MR</a>
+<a href="Architecture-Mondiale-Des-Ressources.html">Governance</a>
+<a href="tribunal-international-independent.html">Tribunal</a>
+<a href="debat.html">Debate</a>
+<a href="forum.html">Forum</a>
+<a href="media.html">Media</a>
 <a href="contact.html">Contact</a>
 
 </nav>
+    
 
 <footer>
 
@@ -352,7 +453,16 @@ Voting and decision-making functions are managed through the Peuplitique applica
 <p>
 Participation • Ressources • Résilience • Gouvernance
 </p>
-
+<div style="text-align:center; margin:30px 0;">
+    <a href="index.html"
+       style="color:#3FD1C2; font-weight:bold; text-decoration:none;">
+       ← Back to Home
+    </a>
+</div>
+<footer class="footer">
+    <p>
+        Peuplitique – Vote-Token
+    </p>
 </footer>
 
 <script>
