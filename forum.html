@@ -48,7 +48,29 @@
       border-radius: 8px;
       overflow-x: auto;
     }
+*{
+    box-sizing:border-box;
+}
 
+html,
+body{
+    overflow-x:hidden;
+    max-width:100%;
+}
+
+.article-section{
+    max-width:900px;
+    margin:auto;
+    padding:20px;
+}
+
+img,
+table,
+iframe{
+    max-width:100%;
+}
+
+    
     /* =========================
        RESPONSIVE MOBILE
        ========================= */
@@ -110,7 +132,29 @@
     <h1>FORUM CITOYEN</h1>
     <p class="sous-titre">Discussions – Idées – Intelligence collective</p>
     <div class="ligne"></div>
+        
 </header>
+<div class="fr">
+VERSION FRANÇAISE
+
+<nav class="sommaire">
+<ul>
+<li><a href="index.html">Accueil</a></li>
+<li><a href="thematiques.html">Thématiques</a></li>
+<li><a href="ecosysteme.html">Écosystème</a></li>
+<li><a href="Recherche-citoyenne-de-terrain.html">Recherche</a></li>
+<li><a href="Science-Indépendante.html">Science</a></li>
+<li><a href="Autonomie-Alimentaire.html">Autonomie</a></li>
+<li><a href="MR-Monnaie-Ressource-Mondiale.html">MR</a></li>
+<li><a href="Architecture-Mondiale-Des-Ressources.html">Gouvernance</a></li>
+<li><a href="tribunal-international-independant.html">Tribunal</a></li>
+<li><a href="debat.html">Débat</a></li>
+<li><a href="forum.html">Forum</a></li>
+<li><a href="media.html">Média</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</nav>
+
 
 <!-- SÉLECTEUR DE LANGUE -->
 <div class="lang-switch">
@@ -121,25 +165,11 @@
     <a href="#" onclick="setLang('zh')">中文</a>
 </div>
 
-<!-- SOMMAIRE HORIZONTAL -->
-<nav class="sommaire">
-    <ul>
-        <li><a href="index.html">Accueil</a></li>
-        <li><a href="thematiques.html">Thématiques</a></li>
-        <li><a href="ecosysteme.html">Écosystème</a></li>
-        <li><a href="debat.html">Débat</a></li>
-        <li><a href="forum.html" class="active">Forum</a></li>
-        <li><a href="contact.html">Contact</a></li>
-    </ul>
-</nav>
 
 <!-- CONTENU PRINCIPAL -->
 <section class="content">
 
-    <!-- VERSION FRANÇAISE -->
-    <div data-lang="fr">
-</div>
-class="carte">
+<div class="carte">
             <h2>Fonction du forum citoyen</h2>
             <p>
                 Le forum est un espace ouvert où chaque citoyen peut proposer des idées,
@@ -174,10 +204,29 @@ class="carte">
         </div>
 
     </div>
-
+<h3>Accès rapides</h3>
+<ul>
+    <li><a href="index.html">Accueil du site</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="media.html">Média</a></li>
+    <li><a href="debat.html">Débats citoyens</a></li>
+    <li><a href="forum.html">Forum</a></li>
+    <li><a href="contact.html">Formulaire de contact</a></li>
+    <li>Peuplitique Site</li>
+    <li>Peuplitique App</li>
+</ul>
+  </ul>
 </section>
-<div data-lang="en" style="display:none;">
+<div style="text-align:center; margin:30px 0;">
+    <a href="index.html"
+       style="color:#3FD1C2; font-weight:bold; text-decoration:none;">
+       ← Retour à l'accueil
+    </a>
+</div>
 
+
+<div class="en" style="display:none;">
+ VERSION ANGLAISE
     <div class="carte">
         <h2>Citizen Forum Purpose</h2>
         <p>
@@ -203,7 +252,7 @@ class="carte">
             <li><strong>International Topics</strong>: geopolitics, climate...</li>
             <li><strong>Innovation &amp; Green Energy</strong></li>
             <li><strong>Integrated Economy</strong></li>
-            <li><strong>Culture &amp; Society</strong></li>
+            <li><strong>Culture & Society</strong></li>
         </ul>
     </div>
 
@@ -218,12 +267,69 @@ class="carte">
 </div><!-- fin version anglaise -->
 
 </section>
-<footer>
-    <p>© Peuplitique – Forum citoyen</p>
+
+<h3>Quick Access</h3>
+
+<ul>
+
+<li><a href="index.html">Site Home</a></li>
+
+<li><a href="contact.html">Contact</a></li>
+
+<li><a href="media.html">Media</a></li>
+
+<li><a href="debat.html">Citizen Debates</a></li>
+
+<li><a href="forum.html">Forum</a></li>
+
+<li><a href="contact.html">Contact Form</a></li>
+
+<li>Peuplitique Website</li>
+
+<li>Peuplitique App</li>
+
+</ul>
+
+</div>
+ 
+<div style="text-align:center; margin:30px 0;">
+    <a href="index.html"
+       style="color:#3FD1C2; font-weight:bold; text-decoration:none;">
+       ← Back to Home
+    </a>
+</div>
+  
+
+<footer class="footer">
+    <p>
+        Peuplitique – FORUM CITOYEN
+    </p>
 </footer>
 
-<!-- SCRIPT MULTILINGUE -->
-<script src="lang.js"></script>
+<script>
+function setLang(lang) {
+    localStorage.setItem('lang', lang);
+
+    document.querySelectorAll('.fr').forEach(el => {
+        el.style.display = (lang === 'fr') ? 'block' : 'none';
+    });
+
+    document.querySelectorAll('.en').forEach(el => {
+        el.style.display = (lang === 'en') ? 'block' : 'none';
+    });
+}
+
+window.onload = function () {
+    setLang(localStorage.getItem('lang') || 'fr');
+};
+</script>
 
 </body>
 </html>
+
+
+
+
+  
+    
+ 
