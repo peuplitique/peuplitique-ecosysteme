@@ -49,6 +49,27 @@
       border-radius: 8px;
       overflow-x: auto;
     }
+*{
+    box-sizing:border-box;
+}
+
+html,
+body{
+    overflow-x:hidden;
+    max-width:100%;
+}
+
+.article-section{
+    max-width:900px;
+    margin:auto;
+    padding:20px;
+}
+
+img,
+table,
+iframe{
+    max-width:100%;
+}
 
     /* =========================
        RESPONSIVE MOBILE
@@ -105,6 +126,33 @@
 </head>
 
 <body>
+<header class="zone-bleue">
+    <h1>PEUPLITIQUE</h1>
+    <p class="sous-titre">
+        juridique
+    </p>
+    <div class="ligne"></div>
+</header>
+<div class="fr">
+VERSION FRANÇAISE
+
+<nav class="sommaire">
+<ul>
+<li><a href="index.html">Accueil</a></li>
+<li><a href="thematiques.html">Thématiques</a></li>
+<li><a href="ecosysteme.html">Écosystème</a></li>
+<li><a href="Recherche-citoyenne-de-terrain.html">Recherche</a></li>
+<li><a href="Science-Indépendante.html">Science</a></li>
+<li><a href="Autonomie-Alimentaire.html">Autonomie</a></li>
+<li><a href="MR-Monnaie-Ressource-Mondiale.html">MR</a></li>
+<li><a href="Architecture-Mondiale-Des-Ressources.html">Gouvernance</a></li>
+<li><a href="tribunal-international-independant.html">Tribunal</a></li>
+<li><a href="debat.html">Débat</a></li>
+<li><a href="forum.html">Forum</a></li>
+<li><a href="media.html">Média</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</nav>
 
 
 <nav class="sommaire-horizontal">
@@ -129,6 +177,21 @@
         <li><a href="#article17">Article 17</a></li>
         <li><a href="#article18">Article 18</a></li>
         <li><a href="#article19">Article 19</a></li>
+<li><a href="#article20">Article 20</a></li>
+<li><a href="#article21">Article 21</a></li>
+<li><a href="#article22">Article 22</a></li>
+<li><a href="#article23">Article 23</a></li>
+<li><a href="#article24">Article 24</a></li>
+<li><a href="#article25">Article 25</a></li>
+<li><a href="#article26">Article 26</a></li>
+<li><a href="#article27">Article 27</a></li>
+<li><a href="#article28">Article 28</a></li>
+<li><a href="#article29">Article 29</a></li>
+<li><a href="#article30">Article 30</a></li>
+<li><a href="#article31">Article 31</a></li>
+<li><a href="#article32">Article 32</a></li>
+<li><a href="#article33">Article 33</a></li>
+<li><a href="#article34">Article 34</a></li>
     </ul>
 </nav>
 
@@ -1600,12 +1663,2043 @@
       <li>intervention de la Cour Mondiale Neutre.</li>
     </ul>
   </article>
+<!-- ARTICLE 20 -->
+
+<article id="article20">
+
+<h2>Article 20 – Science, connaissance et innovation</h2>
+
+<h3>20.1 – Liberté de la recherche</h3>
+
+<p>
+La recherche scientifique est libre, transparente et indépendante de toute influence politique, économique ou idéologique.
+</p>
+
+<h3>20.2 – Accès libre à la connaissance</h3>
+
+<p>
+Toute connaissance scientifique financée par des ressources publiques doit être accessible à l’ensemble des citoyens.
+</p>
+
+<h3>20.3 – Innovation éthique</h3>
+
+<p>
+L’innovation doit servir l’humanité, le bien-être collectif, la protection de l’environnement et la gestion durable des ressources.
+</p>
+
+<h3>20.4 – Contrôle citoyen de la science</h3>
+
+<p>
+Les citoyens peuvent participer à l’évaluation, à la publication et à la supervision des grands projets scientifiques ayant un impact sur la société.
+</p>
+
+</article>
+
+
+<!-- ARTICLE 21 -->
+
+<article id="article21">
+
+<h2>Article 21 – Éducation et transmission des savoirs</h2>
+
+<h3>21.1 – Accès universel à l’éducation</h3>
+
+<p>
+Chaque citoyen a droit à une éducation gratuite, accessible et de qualité.
+</p>
+
+<h3>21.2 – Apprentissage permanent</h3>
+
+<p>
+L’éducation accompagne chaque citoyen tout au long de sa vie afin de favoriser son développement personnel, professionnel et civique.
+</p>
+
+<h3>21.3 – Indépendance des savoirs</h3>
+
+<p>
+Les établissements d’enseignement doivent rester indépendants de toute manipulation politique, commerciale ou idéologique.
+</p>
+
+<h3>21.4 – Éducation citoyenne</h3>
+
+<p>
+L’enseignement comprend la connaissance des droits fondamentaux, de la Constitution, de la participation citoyenne et des responsabilités civiques.
+</p>
+
+</article>
+
+
+<!-- ARTICLE 22 -->
+
+<article id="article22">
+
+<h2>Article 22 – Santé et bien-être humain</h2>
+
+<h3>22.1 – Droit à la santé</h3>
+
+<p>
+Chaque citoyen a droit à un accès équitable à des soins de santé de qualité.
+</p>
+
+<h3>22.2 – Prévention et qualité de vie</h3>
+
+<p>
+Les politiques publiques de santé favorisent la prévention, l’éducation sanitaire et les modes de vie favorables à la santé.
+</p>
+
+<h3>22.3 – Transparence des institutions de santé</h3>
+
+<p>
+Les institutions de santé fonctionnent sous un régime de transparence, de responsabilité publique et de contrôle citoyen.
+</p>
+
+<h3>22.4 – Recherche médicale indépendante</h3>
+
+<p>
+La recherche médicale demeure indépendante de toute influence commerciale ou politique susceptible de compromettre l’intérêt général.
+</p>
+
+</article>
+
+
+<!-- ARTICLE 23 -->
+
+<article id="article23">
+
+<h2>Article 23 – Coopération internationale et paix</h2>
+
+<h3>23.1 – Principe de paix</h3>
+
+<p>
+Le modèle Peuplitique favorise la coopération pacifique entre les peuples et les nations.
+</p>
+
+<h3>23.2 – Partenariats neutres</h3>
+
+<p>
+Les relations internationales reposent sur la transparence, le respect mutuel, la réciprocité et le développement partagé.
+</p>
+
+<h3>23.3 – Protection des peuples</h3>
+
+<p>
+Aucune nation, institution ou organisation économique ne peut exploiter un peuple, son territoire ou ses ressources.
+</p>
+
+<h3>23.4 – Coopération mondiale</h3>
+
+<p>
+Le Global Leader et la Cour Mondiale Neutre peuvent faciliter la médiation, la coopération internationale et la résolution pacifique des différends entre peuples et nations.
+</p>
+
+</article>
+
+<!-- ARTICLE 24 -->
+
+<article id="article24">
+
+<h2>Article 24 – Économie intégrée et développement harmonisé</h2>
+
+<p>
+L'économie est organisée au service du peuple, des ressources et de l'intérêt général.
+</p>
+
+<ul>
+<li>Les ressources essentielles ne peuvent être accaparées.</li>
+<li>L'activité économique doit contribuer au bien-être collectif.</li>
+<li>La spéculation sur les biens fondamentaux est interdite.</li>
+<li>Les flux économiques sont transparents et auditables.</li>
+<li>La prospérité est mesurée par la qualité de vie et non uniquement par la croissance financière.</li>
+</ul>
+
+</article>
+
+<!-- ARTICLE 25 -->
+
+<article id="article25">
+
+<h2>Article 25 – Autonomie alimentaire et sécurité des ressources</h2>
+
+<p>
+Chaque nation doit tendre vers une autonomie alimentaire durable.
+</p>
+
+<ul>
+<li>La production locale est encouragée.</li>
+<li>Les terres agricoles sont protégées.</li>
+<li>L'eau est un bien commun fondamental.</li>
+<li>Les semences et ressources vitales sont préservées.</li>
+<li>Les citoyens ont accès à une alimentation saine et suffisante.</li>
+</ul>
+
+</article>
+
+<!-- ARTICLE 26 -->
+
+<article id="article26">
+
+<h2>Article 26 – Recherche citoyenne de terrain</h2>
+
+<p>
+La recherche citoyenne complète les institutions scientifiques traditionnelles.
+</p>
+
+<ul>
+<li>Les citoyens peuvent réaliser des enquêtes de terrain.</li>
+<li>Les données recueillies sont publiées en accès libre.</li>
+<li>Les observations peuvent contribuer à l'élaboration des politiques publiques.</li>
+<li>La transparence méthodologique est obligatoire.</li>
+<li>Les résultats sont soumis à vérification collective.</li>
+</ul>
+
+</article>
+
+<!-- ARTICLE 27 -->
+
+<article id="article27">
+
+<h2>Article 27 – Intelligence artificielle citoyenne</h2>
+
+<p>
+L'intelligence artificielle est un outil au service du peuple.
+</p>
+
+<ul>
+<li>Elle favorise l'accès à la connaissance.</li>
+<li>Elle assiste les citoyens dans leurs recherches et décisions.</li>
+<li>Son fonctionnement doit être transparent.</li>
+<li>Les biais connus doivent être publiquement documentés.</li>
+<li>L'IA ne peut se substituer à la souveraineté populaire.</li>
+</ul>
+
+</article>
+
+<!-- ARTICLE 28 -->
+
+<article id="article28">
+
+<h2>Article 28 – Médias, information et transparence</h2>
+
+<p>
+L'information est un bien d'intérêt général.
+</p>
+
+<ul>
+<li>La liberté de la presse est garantie.</li>
+<li>Les citoyens ont accès aux informations publiques.</li>
+<li>Les conflits d'intérêts médiatiques doivent être déclarés.</li>
+<li>Les sources de financement des médias sont transparentes.</li>
+<li>Le pluralisme de l'information est protégé.</li>
+</ul>
+
+</article>
+
+<!-- ARTICLE 29 -->
+
+<article id="article29">
+
+<h2>Article 29 – Débat citoyen et participation publique</h2>
+
+<p>
+Le débat citoyen constitue un pilier permanent de la démocratie Peuplitique.
+</p>
+
+<ul>
+<li>Chaque citoyen peut proposer des idées.</li>
+<li>Les débats sont ouverts et accessibles.</li>
+<li>La confrontation respectueuse des points de vue est encouragée.</li>
+<li>Les synthèses citoyennes sont publiées.</li>
+<li>Les résultats peuvent être soumis au vote populaire.</li>
+</ul>
+
+</article>
+
+<!-- ARTICLE 30 -->
+
+<article id="article30">
+
+<h2>Article 30 – Constitution mondiale des ressources</h2>
+
+<p>
+Les ressources vitales de la planète constituent un patrimoine commun de l'humanité.
+</p>
+
+<ul>
+<li>L'eau, l'air et les écosystèmes sont protégés.</li>
+<li>Les ressources stratégiques sont gérées durablement.</li>
+<li>Les générations futures doivent être préservées.</li>
+<li>Les abus et destructions massives peuvent faire l'objet de sanctions internationales.</li>
+<li>La coopération mondiale est privilégiée.</li>
+</ul>
+
+</article>
+
+<!-- ARTICLE 31 -->
+
+<article id="article31">
+
+<h2>Article 31 – Tribunal international indépendant</h2>
+
+<p>
+Un tribunal international indépendant garantit le respect de la justice mondiale.
+</p>
+
+<ul>
+<li>Son fonctionnement est transparent.</li>
+<li>Ses décisions sont publiques.</li>
+<li>Il protège les peuples contre les abus internationaux.</li>
+<li>Il peut enquêter sur les atteintes aux droits fondamentaux.</li>
+<li>Il agit de manière neutre et indépendante.</li>
+</ul>
+
+</article>
+
+<!-- ARTICLE 32 -->
+
+<article id="article32">
+
+<h2>Article 32 – Monnaie Ressource Mondiale (MR)</h2>
+
+<p>
+La Monnaie Ressource Mondiale repose sur les ressources réelles et la création de valeur tangible.
+</p>
+
+<ul>
+<li>Elle favorise la stabilité économique.</li>
+<li>Elle limite la spéculation excessive.</li>
+<li>Elle repose sur des indicateurs vérifiables.</li>
+<li>Sa gestion est transparente.</li>
+<li>Elle vise l'équilibre entre populations, ressources et développement.</li>
+</ul>
+
+</article>
+
+<!-- ARTICLE 33 -->
+
+<article id="article33">
+
+<h2>Article 33 – Gouvernance mondiale des ressources</h2>
+
+<p>
+La gouvernance mondiale des ressources repose sur la coopération entre les peuples.
+</p>
+
+<ul>
+<li>Les ressources sont cartographiées et évaluées.</li>
+<li>Les besoins sont analysés collectivement.</li>
+<li>Les échanges sont transparents.</li>
+<li>Les déséquilibres peuvent être corrigés par des mécanismes de coopération.</li>
+<li>Les intérêts particuliers ne peuvent primer sur l'intérêt général mondial.</li>
+</ul>
+
+</article>
+
+<!-- ARTICLE 34 -->
+
+<article id="article34">
+
+<h2>Article 34 – Écosystème Peuplitique</h2>
+
+<p>
+L'écosystème Peuplitique rassemble l'ensemble des outils, institutions, plateformes et mécanismes permettant l'exercice de la souveraineté citoyenne.
+</p>
+
+<ul>
+<li>Les citoyens constituent le centre du système.</li>
+<li>Les institutions agissent comme structures de service.</li>
+<li>La science, la recherche et l'éducation soutiennent les décisions.</li>
+<li>La transparence constitue une obligation permanente.</li>
+<li>La Constitution assure la cohérence de l'ensemble.</li>
+</ul>
+
+<p>
+L'écosystème Peuplitique poursuit un objectif de paix, de justice, de transparence, de coopération et de gestion durable des ressources au bénéfice présent et futur de l'humanité.
+</p>
+
+</article>
+
+<h3>Pages associées</h3>
+
+<ul>
+
+<li><a href="juridique.html">← Retour à la Constitution citoyenne</a></li>
+
+<li><a href="Science-Indépendante.html">Article 20 – Science indépendante</a></li>
+
+<li><a href="Education.html">Article 21 – Éducation et transmission des savoirs</a></li>
+
+<li><a href="Sante.html">Article 22 – Santé et bien-être humain</a></li>
+
+<li><a href="Relations-Internationales.html">Article 23 – Coopération internationale et paix</a></li>
+
+<li><a href="MR-Monnaie-Ressource-Mondiale.html">Article 24 – Économie intégrée</a></li>
+
+<li><a href="Autonomie-Alimentaire.html">Article 25 – Autonomie alimentaire</a></li>
+
+<li><a href="Recherche-citoyenne-de-terrain.html">Article 26 – Recherche citoyenne de terrain</a></li>
+
+<li><a href="forum.html">Article 27 – Intelligence artificielle citoyenne</a></li>
+
+<li><a href="media.html">Article 28 – Médias et transparence</a></li>
+
+<li><a href="debat.html">Article 29 – Débat citoyen</a></li>
+
+<li><a href="Architecture-Mondiale-Des-Ressources.html">Article 30 – Constitution mondiale des ressources</a></li>
+
+<li><a href="tribunal-international-independant.html">Article 31 – Tribunal international indépendant</a></li>
+
+<li><a href="MR-Monnaie-Ressource-Mondiale.html">Article 32 – Monnaie Ressource Mondiale (MR)</a></li>
+
+<li><a href="Architecture-Mondiale-Des-Ressources.html">Article 33 – Gouvernance mondiale des ressources</a></li>
+
+<li><a href="ecosysteme.html">Article 34 – Écosystème Peuplitique</a></li>
+
+</ul>
+
+
+<h3>Accès rapides</h3>
+
+<ul>
+    <li><a href="index.html">Accueil du site</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="media.html">Média</a></li>
+    <li><a href="debat.html">Débats citoyens</a></li>
+    <li><a href="forum.html">Forum</a></li>
+    <li><a href="contact.html">Formulaire de contact</a></li>
+    <li>Peuplitique Site</li>
+    <li>Peuplitique App</li>
+</ul>
+
+  </ul>
+
+<div style="text-align:center; margin:30px 0;">
+    <a href="juridique.html"
+       style="color:#3FD1C2; font-weight:bold; text-decoration:none;">
+       ← Retour à la Constitution citoyenne
+    </a>
+</div>
+
+<div class="en" style="display:none;">
+
+VERSION ANGLAISE
+
+<nav class="sommaire">
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="thematiques.html">Topics</a></li>
+<li><a href="ecosysteme.html">Ecosystem</a></li>
+<li><a href="Recherche-citoyenne-de-terrain.html">Research</a></li>
+<li><a href="Science-Indépendante.html">Science</a></li>
+<li><a href="Autonomie-Alimentaire.html">Autonomy</a></li>
+<li><a href="MR-Monnaie-Ressource-Mondiale.html">MR</a></li>
+<li><a href="Architecture-Mondiale-Des-Ressources.html">Governance</a></li>
+<li><a href="tribunal-international-independant.html">Tribunal</a></li>
+<li><a href="debat.html">Debate</a></li>
+<li><a href="forum.html">Forum</a></li>
+<li><a href="media.html">Media</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</nav>
+
+<nav class="sommaire-horizontal">
+<ul>
+<li><a href="#article1">Article 1</a></li>
+<li><a href="#article2">Article 2</a></li>
+<li><a href="#article3">Article 3</a></li>
+<li><a href="#article4">Article 4</a></li>
+<li><a href="#article5">Article 5</a></li>
+<li><a href="#article6">Article 6</a></li>
+<li><a href="#article7">Article 7</a></li>
+<li><a href="#article8">Article 8</a></li>
+<li><a href="#article9">Article 9</a></li>
+<li><a href="#article10">Article 10</a></li>
+<li><a href="#article11">Article 11</a></li>
+<li><a href="#article11b">Article 11B</a></li>
+<li><a href="#article12">Article 12</a></li>
+<li><a href="#article13">Article 13</a></li>
+<li><a href="#article14">Article 14</a></li>
+<li><a href="#article15">Article 15</a></li>
+<li><a href="#article16">Article 16</a></li>
+<li><a href="#article17">Article 17</a></li>
+<li><a href="#article18">Article 18</a></li>
+<li><a href="#article19">Article 19</a></li>
+<li><a href="#article20">Article 20</a></li>
+<li><a href="#article21">Article 21</a></li>
+<li><a href="#article22">Article 22</a></li>
+<li><a href="#article23">Article 23</a></li>
+<li><a href="#article24">Article 24</a></li>
+<li><a href="#article25">Article 25</a></li>
+<li><a href="#article26">Article 26</a></li>
+<li><a href="#article27">Article 27</a></li>
+<li><a href="#article28">Article 28</a></li>
+<li><a href="#article29">Article 29</a></li>
+<li><a href="#article30">Article 30</a></li>
+<li><a href="#article31">Article 31</a></li>
+<li><a href="#article32">Article 32</a></li>
+<li><a href="#article33">Article 33</a></li>
+<li><a href="#article34">Article 34</a></li>
+</ul>
+</nav>
+
+<section id="constitution-peuplitique-legal">
+<h1>Peuplitique Constitution – Legal Theme</h1>
+
+<section id="constitution-peuplitique-legal">
+
+<h1>Peuplitique Constitution – Legal Framework</h1>
+
+<article id="article1">
+
+<h2>Article 1 – Popular Sovereignty</h2>
+
+<p>
+Sovereignty belongs exclusively to the people, who directly exercise legislative power through debate, proposals and voting. No majority, opposition, political party or political government may exist within the Peuplitique model.
+</p>
+
+<p>
+The people propose, discuss and adopt laws. Laws are approved through secure digital referendums. Public budgets are voted on in the same manner as laws.
+</p>
+
+</article>
+
+<article id="article2">
+
+<h2>Article 2 – Legislative Authority</h2>
+
+<p>
+The people propose, discuss and adopt laws. Laws are approved through secure digital referendums. Public budgets are voted on in the same manner as laws.
+</p>
+
+</article>
+
+<article id="article3">
+
+<h2>Article 3 – Executive Authority</h2>
+
+<p>
+The executive branch implements the decisions of the people. It manages territorial policies, investments and infrastructure. It may not propose any law and may not influence voting. It is supervised by municipalities and the judiciary.
+</p>
+
+</article>
+
+<article id="article4">
+
+<h2>Article 4 – Judicial Authority</h2>
+
+<p>
+The judiciary is independent. It validates the conformity of laws approved by the people. It blocks any decision contrary to:
+</p>
+
+<ul>
+<li>public morality,</li>
+<li>the general interest,</li>
+<li>the Constitution,</li>
+<li>the absence of conflicts of interest.</li>
+</ul>
+
+<p>
+It serves as the constitutional safeguard of the system.
+</p>
+
+</article>
+<!-- ARTICLE 6 -->
+<article id="article6">
+
+<h2>Article 6 – Citizen Budget</h2>
+
+<p>
+The national budget is voted on by the people. Municipalities manage local budgets. Public expenditures must be approved by the people.
+</p>
+
+</article>
+
+<!-- ARTICLE 7 -->
+<article id="article7">
+
+<h2>Article 7 – Transparency, Conflicts of Interest and Chamber of Commerce</h2>
+
+<p>
+Any person exercising a public, administrative, territorial or civic function must declare all financial, commercial, professional and asset-related interests.
+</p>
+
+<p>
+The judiciary may immediately suspend any individual found to be in a conflict-of-interest situation, including:
+</p>
+
+<ul>
+<li>an elected representative,</li>
+<li>a member of the executive branch,</li>
+<li>a territorial representative,</li>
+<li>a member of the Municipal Parliament,</li>
+<li>or any economic actor influencing a public decision, including corporate executives, directors or shareholders represented within the Chamber of Commerce.</li>
+</ul>
+
+<p>
+Public decisions must be transparent, accessible and publicly available. No economic actor may participate in a public decision when they hold a direct or indirect interest in a company likely to be affected by that decision.
+</p>
+
+<h3>Section 7A – Misuse of Public Assets and Public Funds Fraud</h3>
+
+<p>
+Any use of public resources, territorial budgets, national funds or state-owned assets for personal, political, commercial or private purposes constitutes misuse of public assets and fraud against public funds.
+</p>
+
+<p>
+The judiciary may:
+</p>
+
+<ul>
+<li>immediately suspend the person concerned,</li>
+<li>seize assets,</li>
+<li>block transactions,</li>
+<li>open an investigation,</li>
+<li>submit the case to the people for approval of sanctions.</li>
+</ul>
+
+<p>
+Sanctions shall be public and transparent.
+</p>
+
+<h3>Section 7B – Opaque Investment Funds and Transnational Financial Flows</h3>
+
+<p>
+Any opaque financial structure, undeclared investment fund, shell company or non-transparent transnational financial flow is prohibited in relation to public decision-making.
+</p>
+
+<p>
+Economic actors must disclose:
+</p>
+
+<ul>
+<li>their holdings in international funds,</li>
+<li>their links with offshore companies,</li>
+<li>their relationships with foreign financial groups,</li>
+<li>their interests in transnational investments.</li>
+</ul>
+
+<p>
+The judiciary may block:
+</p>
+
+<ul>
+<li>any opaque investment,</li>
+<li>any suspicious transaction,</li>
+<li>any untraceable financial flow,</li>
+<li>any undeclared foreign economic influence.</li>
+</ul>
+
+<h3>Section 7C – Criminal Networks (Drug Trafficking, Money Laundering, Financial Networks)</h3>
+
+<p>
+Any person having direct or indirect links with:
+</p>
+
+<ul>
+<li>drug trafficking networks,</li>
+<li>criminal organizations,</li>
+<li>money laundering schemes,</li>
+<li>illegal transnational organizations,</li>
+<li>criminal financial groups,</li>
+<li>opaque companies or funds,</li>
+<li>shareholders involved in suspicious financial flows,</li>
+</ul>
+
+<p>
+shall be automatically excluded from any public office, public decision-making process and institutional influence.
+</p>
+
+<h3>Section 7D – Chamber of Commerce, Economic Influence and Institutional Neutrality</h3>
+
+<p>
+The Chamber of Commerce, economic actors, corporations, shareholders and executives holding influence over public decisions are subject to a constitutional regime of reinforced transparency and neutrality.
+</p>
+
+<p>
+No individual exercising an economic or commercial role may influence a public decision while holding a direct or indirect interest in a company, fund, financial group or commercial structure likely to be affected by that decision.
+</p>
+
+<h4>Mandatory Declaration of Economic Interests</h4>
+
+<p>
+Executives, directors, shareholders and Chamber of Commerce representatives must declare:
+</p>
+
+<ul>
+<li>their interests in domestic or foreign companies,</li>
+<li>their shares in investment funds,</li>
+<li>their ties to offshore entities,</li>
+<li>their relationships with transnational financial groups,</li>
+<li>their interests in public or private projects,</li>
+<li>their connections to sensitive commercial networks.</li>
+</ul>
+
+<p>
+This declaration shall be public and accessible to the people.
+</p>
+
+<h4>Mandatory Institutional Neutrality</h4>
+
+<p>
+The following institutions, historically considered sensitive in Mauritius:
+</p>
+
+<ul>
+<li>Ombudsman,</li>
+<li>DPP (Director of Public Prosecutions),</li>
+<li>FCC (Financial Crimes Commission),</li>
+<li>Economic Police,</li>
+<li>Chamber of Commerce,</li>
+<li>Financial Authorities,</li>
+<li>Commissions of Inquiry,</li>
+<li>Regulatory Authorities,</li>
+</ul>
+
+<p>
+shall be placed under a constitutional regime of reinforced neutrality.
+</p>
+
+<p>
+They may not:
+</p>
+
+<ul>
+<li>hold private interests,</li>
+<li>be influenced by corporations,</li>
+<li>be funded by economic actors,</li>
+<li>be infiltrated by criminal networks,</li>
+<li>be directed by individuals with commercial or financial ties.</li>
+</ul>
+
+</article>
+
+<!-- ARTICLE 8 -->
+<article id="article8">
+
+<h2>Article 8 – Role of Municipalities and the Municipal Parliament</h2>
+
+<h3>1. Municipalities: Citizen Territorial Authority</h3>
+
+<p>
+Municipalities are the first institutions of local governance. Their role is:
+</p>
+
+<ul>
+<li>to represent territorial needs,</li>
+<li>to propose local projects,</li>
+<li>to manage infrastructure,</li>
+<li>to administer municipal budgets,</li>
+<li>to coordinate public services,</li>
+<li>to submit citizens' requests to the Municipal Parliament.</li>
+</ul>
+
+<p>
+Municipalities may not:
+</p>
+
+<ul>
+<li>influence judicial decisions,</li>
+<li>manipulate national budgets,</li>
+<li>conceal expenditures,</li>
+<li>act under economic or criminal influence.</li>
+</ul>
+
+<p>
+They are fully transparent and accountable to the people.
+</p>
+
+<h3>2. Municipal Parliament: Territorial Assembly and Citizens' Assembly</h3>
+
+<p>
+The Municipal Parliament is the territorial and democratic coordinating body. It operates in direct cooperation with municipalities, citizens and the judiciary, ensuring coherence between local and national decisions.
+</p>
+
+<p>
+The Municipal Parliament consists of:
+</p>
+
+<ul>
+<li>mayors,</li>
+<li>sector governors serving as territorial representatives,</li>
+<li>citizens selected by lot for commissions,</li>
+<li>independent experts free from conflicts of interest.</li>
+</ul>
+
+<p>
+Its mission is:
+</p>
+
+<ul>
+<li>to prepare proposals submitted to the people,</li>
+<li>to organize public debates with mayors and citizens,</li>
+<li>to evaluate territorial projects,</li>
+<li>to verify constitutional compliance,</li>
+<li>to submit laws to popular vote.</li>
+</ul>
+
+<p>
+The Municipal Parliament does not vote on laws. It prepares, structures and organizes. The people vote.
+</p>
+
+</article>
+
+<!-- ARTICLE 9 -->
+<article id="article9">
+
+<h2>Article 9 – Citizen Budget Voted by the People</h2>
+
+<p>
+The national budget and territorial budgets are voted on directly by the people. They may not be determined, modified or allocated by any political, economic or administrative authority without citizen approval.
+</p>
+
+<p>
+The budget becomes a legislative act subject to the same rules as laws: public debate, full transparency, judicial oversight and popular voting.
+</p>
+
+<h3>1. The People: Sole Budgetary Legislator</h3>
+
+<ul>
+<li>vote on the national budget,</li>
+<li>vote on territorial budgets,</li>
+<li>approve public spending,</li>
+<li>authorize or reject investments,</li>
+<li>oversee the executive branch and municipalities,</li>
+<li>may block any suspicious expenditure.</li>
+</ul>
+
+<p>
+No public expenditure may be undertaken without popular consent.
+</p>
+
+</article>
+
+<!-- ARTICLE 10 -->
+<article id="article10">
+
+<h2>Article 10 – Territorial Executive (Investments and Infrastructure)</h2>
+
+<p>
+The territorial executive is a technical, non-political body responsible for implementing decisions approved by the people and validated by the judiciary. It manages infrastructure, investments, public services and territorial development.
+</p>
+
+<p>
+The executive may neither propose laws, influence votes nor interfere with judicial decisions.
+</p>
+
+<h3>1. Primary Mission: Implementing the People's Decisions</h3>
+
+<ul>
+<li>implements projects approved by the people,</li>
+<li>oversees public works,</li>
+<li>manages local and national infrastructure,</li>
+<li>coordinates public services,</li>
+<li>ensures territorial development,</li>
+<li>executes budgets approved by the people.</li>
+</ul>
+
+<p>
+It is an executive body, not a decision-making authority.
+</p>
+
+<h3>2. Investment Management</h3>
+
+<p>
+The territorial executive:
+</p>
+
+<ul>
+<li>prepares technical investment files,</li>
+<li>assesses territorial needs,</li>
+<li>proposes infrastructure plans,</li>
+<li>publishes costs, timelines and impacts,</li>
+<li>submits projects to the Municipal Parliament for structuring,</li>
+<li>implements only investments approved by the people.</li>
+</ul>
+
+<p>
+It may not:
+</p>
+
+<ul>
+<li>sign contracts without citizen approval,</li>
+<li>commit public funds without a vote,</li>
+<li>accept opaque financing,</li>
+<li>collaborate with companies involved in conflicts of interest.</li>
+</ul>
+
+</article>
+<!-- ARTICLE 11 -->
+
+<article id="article11">
+
+<h2>Article 11 – Citizen Justice and Constitutional Safeguard</h2>
+
+<p>
+Citizen justice is the central pillar of the Constitution. It guarantees neutrality,
+transparency, protection of the people and the complete absence of political,
+economic or criminal influence.
+</p>
+
+<p>
+The judiciary is independent, inviolable and non-political. It acts as the
+constitutional safeguard of the system and protects the people against abuse,
+conflicts of interest and violations of the Constitution.
+</p>
+
+<h3>11.1 – The Judiciary as Guardian of the Constitution</h3>
+
+<p>
+The judiciary:
+</p>
+
+<ul>
+<li>validates laws approved by the people,</li>
+<li>blocks decisions contrary to the Constitution,</li>
+<li>suspends individuals involved in conflicts of interest,</li>
+<li>prevents economic influence,</li>
+<li>prevents criminal infiltration,</li>
+<li>protects morality and the public interest.</li>
+</ul>
+
+<h3>11.2 – Citizen Participation in Justice</h3>
+
+<p>
+Citizens may participate through:
+</p>
+
+<ul>
+<li>citizen juries selected by lot,</li>
+<li>public oversight commissions,</li>
+<li>citizen audits,</li>
+<li>public reporting mechanisms,</li>
+<li>transparent judicial review procedures.</li>
+</ul>
+
+<h3>11.3 – Judicial Transparency</h3>
+
+<p>
+Judicial decisions, investigations, audits and disciplinary findings shall be
+publicly accessible unless doing so would violate fundamental rights protected by law.
+</p>
+
+<h3>11.4 – Protection against Criminal Influence</h3>
+
+<p>
+Any person directly or indirectly connected to criminal organizations,
+drug trafficking, laundering networks or illegal transnational structures
+shall be excluded from public authority and institutional influence.
+</p>
+
+<h3>11.5 – Constitutional Safeguard</h3>
+
+<p>
+The judiciary may suspend, annul or block any law, budget, project,
+investment or institutional decision that violates the Constitution.
+</p>
+
+</article>
+
+
+<!-- ARTICLE 11B -->
+
+<article id="article11b">
+
+<h2>Article 11B – Judicial Oversight, Citizen Protection and Self-Representation</h2>
+
+<h3>11B.1 – Citizens Cannot Always Detect Judicial Abuse</h3>
+
+<p>
+Certain judicial abuses, conflicts of interest or procedural irregularities
+may remain invisible to ordinary citizens due to the complex nature of legal systems.
+</p>
+
+<h3>11B.2 – Citizen Judicial Oversight Body (CJOB)</h3>
+
+<p>
+An independent Citizen Judicial Oversight Body shall be established to:
+</p>
+
+<ul>
+<li>review judicial decisions,</li>
+<li>detect hidden abuses,</li>
+<li>investigate conflicts of interest,</li>
+<li>prevent corruption,</li>
+<li>protect citizens from judicial misconduct.</li>
+</ul>
+
+<h3>11B.3 – Constitutional Right of Self-Representation</h3>
+
+<p>
+Every citizen has the constitutional right to represent themselves in judicial proceedings.
+</p>
+
+<p>
+No judge, lawyer or opposing party may deny this right once duly recognized.
+</p>
+
+<h3>11B.4 – Immediate Revocation of Legal Representation</h3>
+
+<p>
+A citizen may dismiss their lawyer at any time whenever trust,
+professional ethics or impartiality is compromised.
+</p>
+
+<h3>11B.5 – Automatic Audit in Cases of Suspected Abuse</h3>
+
+<p>
+Whenever judicial abuse is suspected, a citizen review process may be initiated,
+including audits, investigations and disciplinary actions.
+</p>
+
+<h3>11B.6 – Neutral World Court (NWC)</h3>
+
+<p>
+The current international judicial model may be replaced by a Neutral World Court,
+independent from states, political influence and economic interests.
+</p>
+
+<p>
+The Neutral World Court protects peoples, resources, fundamental rights and
+victims of judicial abuse.
+</p>
+
+</article>
+
+
+<!-- ARTICLE 12 -->
+
+<article id="article12">
+
+<h2>Article 12 – Popular Sovereignty and Voting Mechanisms</h2>
+
+<p>
+Sovereignty belongs exclusively to the people.
+Legislative, budgetary and major public decisions are exercised through
+transparent, secure and accessible voting systems.
+</p>
+
+<h3>12.1 – Source of Legitimacy</h3>
+
+<p>
+The people:
+</p>
+
+<ul>
+<li>propose laws,</li>
+<li>debate publicly,</li>
+<li>vote on legislation,</li>
+<li>approve budgets,</li>
+<li>validate major investments,</li>
+<li>supervise institutions.</li>
+</ul>
+
+<h3>12.2 – Voting System Principles</h3>
+
+<ul>
+<li>secure,</li>
+<li>transparent,</li>
+<li>auditable,</li>
+<li>accessible,</li>
+<li>verifiable,</li>
+<li>protected from manipulation.</li>
+</ul>
+
+<h3>12.3 – Categories of Voting</h3>
+
+<ul>
+<li>Legislative voting,</li>
+<li>Budget voting,</li>
+<li>Territorial voting,</li>
+<li>Oversight voting,</li>
+<li>Constitutional voting.</li>
+</ul>
+
+<h3>12.4 – Constitutional Protection of Voting</h3>
+
+<p>
+The judiciary guarantees electoral integrity and may suspend or annul
+any voting process affected by corruption, manipulation or illegal influence.
+</p>
+
+</article>
+
+
+<!-- ARTICLE 13 -->
+
+<article id="article13">
+
+<h2>Article 13 – Fundamental Rights and Citizen Protections</h2>
+
+<p>
+Fundamental rights are guaranteed by the Constitution and protected by
+the judiciary, the people and transparency mechanisms.
+</p>
+
+<h3>13.1 – Right to Dignity</h3>
+
+<ul>
+<li>respect for human dignity,</li>
+<li>physical integrity,</li>
+<li>psychological integrity,</li>
+<li>protection against institutional abuse.</li>
+</ul>
+
+<h3>13.2 – Right to Freedom</h3>
+
+<ul>
+<li>freedom of expression,</li>
+<li>freedom of thought,</li>
+<li>freedom of conscience,</li>
+<li>freedom of association,</li>
+<li>freedom of movement.</li>
+</ul>
+
+<h3>13.3 – Right to Transparency</h3>
+
+<ul>
+<li>access to public information,</li>
+<li>access to budgets,</li>
+<li>access to audits,</li>
+<li>access to public decisions.</li>
+</ul>
+
+<h3>13.4 – Right to Independent Justice</h3>
+
+<ul>
+<li>neutral justice,</li>
+<li>accessible justice,</li>
+<li>transparent justice,</li>
+<li>independent justice.</li>
+</ul>
+
+<h3>13.5 – Right to Citizen Participation</h3>
+
+<p>
+Every citizen has the right to participate directly in public affairs,
+including proposing laws, voting on budgets and requesting investigations.
+</p>
+
+<h3>13.6 – Equality Before the Law</h3>
+
+<p>
+All citizens are equal before the law, public institutions and judicial processes.
+</p>
+
+<h3>13.7 – Protection Against Criminal Organizations</h3>
+
+<p>
+Citizens shall be protected against criminal networks,
+money laundering systems and all forms of organized criminal influence.
+</p>
+
+</article>
+
+
+<!-- ARTICLE 14 -->
+
+<article id="article14">
+
+<h2>Article 14 – State Neutrality and Absence of Traditional Political Power</h2>
+
+<p>
+The State is a neutral, technical and citizen-oriented structure.
+It cannot be used as an instrument of political domination,
+economic influence or criminal control.
+</p>
+
+<h3>14.1 – End of Traditional Political Structures</h3>
+
+<ul>
+<li>no political parties,</li>
+<li>no political government,</li>
+<li>no partisan parliament,</li>
+<li>no traditional majority or opposition system.</li>
+</ul>
+
+<h3>14.2 – The State as a Technical Institution</h3>
+
+<p>
+The State executes the decisions approved by the people,
+manages public services and guarantees institutional continuity.
+</p>
+
+<h3>14.3 – Mandatory Institutional Neutrality</h3>
+
+<p>
+All public institutions must remain neutral, transparent and independent from
+economic, political or criminal influence.
+</p>
+
+<h3>14.4 – Continuous Judicial Oversight</h3>
+
+<p>
+The judiciary permanently supervises the neutrality of State institutions and
+may suspend any function that violates constitutional principles.
+</p>
+
+</article>
+
+
+<!-- ARTICLE 15 -->
+
+<article id="article15">
+
+<h2>Article 15 – General Organization of Powers</h2>
+
+<h3>15.1 – Sovereignty of the People</h3>
+
+<p>
+The people are the sole legislative authority.
+They vote on laws, budgets and strategic national decisions.
+</p>
+
+<h3>15.2 – Neutrality of the State</h3>
+
+<p>
+The State is a technical and administrative body.
+It does not possess political authority and cannot impose decisions on the people.
+</p>
+
+<h3>15.3 – The Global Leader</h3>
+
+<p>
+The Global Leader is a neutral international coordinator selected by the people.
+The role is technical, strategic and non-partisan.
+</p>
+
+<p>
+Responsibilities include:
+</p>
+
+<ul>
+<li>international cooperation,</li>
+<li>resource management,</li>
+<li>economic coordination,</li>
+<li>energy transition,</li>
+<li>strategic partnerships.</li>
+</ul>
+
+<h3>15.4 – Professional Independence</h3>
+
+<p>
+The Global Leader may retain an independent professional activity,
+provided that it remains fully separated from public duties and creates
+no conflict of interest.
+</p>
+
+<h3>15.5 – Citizen Oversight</h3>
+
+<p>
+The Global Leader remains accountable to the people and subject
+to judicial oversight at all times.
+</p>
+
+<h3>15.6 – Peuplitique Judiciary</h3>
+
+<p>
+The judiciary remains independent, transparent and subject to citizen review mechanisms.
+</p>
+
+<h3>15.7 – Citizen Judicial Oversight Body (CJOB)</h3>
+
+<p>
+A permanent citizen oversight institution supervises judicial integrity,
+investigates abuses and protects constitutional rights.
+</p>
+
+<h3>15.8 – Neutral World Court (NWC)</h3>
+
+<p>
+The Neutral World Court serves as an independent international judicial institution,
+protecting peoples, resources and fundamental rights beyond national interests.
+</p>
+
+</article>
+<!-- ARTICLE 16 -->
+
+<article id="article16">
+
+<h2>Article 16 – Protection of Territory, Resources and the Environment</h2>
+
+<h3>16.1 – Protection of National Territory</h3>
+
+<p>
+The territory is an inviolable common asset. No private, governmental or foreign entity may dispose of it without a direct decision of the people.
+Any violation of the territory shall trigger citizen and judicial protection mechanisms.
+</p>
+
+<h3>16.2 – Natural Resources</h3>
+
+<p>
+Natural resources belong to the people. They shall be managed in a sustainable,
+transparent and neutral manner.
+</p>
+
+<p>
+Any exploitation of strategic resources, including water, energy, minerals and biodiversity,
+must be approved by the people and subject to citizen audits.
+</p>
+
+<h3>16.3 – Environment and Climate</h3>
+
+<p>
+Environmental protection is a constitutional duty.
+</p>
+
+<p>The people may establish:</p>
+
+<ul>
+<li>environmental standards,</li>
+<li>resource extraction limits,</li>
+<li>protected areas,</li>
+<li>sanctions against polluters,</li>
+<li>sustainable energy transformation policies.</li>
+</ul>
+
+<h3>16.4 – Energy Transition</h3>
+
+<p>
+The energy transition shall be coordinated by the Global Leader and approved by the people.
+</p>
+
+<p>
+It shall be based upon:
+</p>
+
+<ul>
+<li>clean technologies,</li>
+<li>transparent systems,</li>
+<li>renewable resources,</li>
+<li>neutral international partnerships.</li>
+</ul>
+
+<h3>16.5 – Resource Security</h3>
+
+<p>
+Any attempt to corrupt, seize, manipulate or divert resources shall result in:
+</p>
+
+<ul>
+<li>a citizen audit,</li>
+<li>immediate suspension of operations,</li>
+<li>judicial intervention,</li>
+<li>referral to the Neutral World Court.</li>
+</ul>
+
+<h3>16.6 – Ecological Sovereignty of the People</h3>
+
+<p>
+The people may:
+</p>
+
+<ul>
+<li>block destructive projects,</li>
+<li>require environmental restoration,</li>
+<li>demand full corporate transparency,</li>
+<li>supervise energy and resource flows,</li>
+<li>protect future generations.</li>
+</ul>
+
+</article>
+
+
+<!-- ARTICLE 17 -->
+
+<article id="article17">
+
+<h2>Article 17 – Resources in Transition and Resource Depletion</h2>
+
+<h3>17.1 – Resources Under Transformation</h3>
+
+<p>
+The Peuplitique Constitution recognizes that certain natural, energy, biological and industrial resources may become scarce, obsolete or transformed.
+</p>
+
+<p>
+The people shall determine:
+</p>
+
+<ul>
+<li>which resources must be protected,</li>
+<li>which resources must be transformed,</li>
+<li>which resources must be phased out,</li>
+<li>which resources must be replaced.</li>
+</ul>
+
+<h3>17.2 – Neutral and Transparent Management</h3>
+
+<p>
+Any resource undergoing transformation shall be managed through:
+</p>
+
+<ul>
+<li>full transparency,</li>
+<li>citizen audits,</li>
+<li>oversight by the Global Leader,</li>
+<li>strict regulation.</li>
+</ul>
+
+<p>
+No exploitation may occur without approval from the affected people or nation.
+</p>
+
+<h3>17.3 – Prevention of Shortages</h3>
+
+<p>
+The people may establish:
+</p>
+
+<ul>
+<li>quotas,</li>
+<li>strategic reserves,</li>
+<li>technological substitutions,</li>
+<li>neutral international partnerships.</li>
+</ul>
+
+<h3>17.4 – End of Weapons as an Economic Resource</h3>
+
+<p>
+Weapon production, trade and stockpiling shall no longer be considered an economic resource.
+</p>
+
+<p>
+Military budgets shall be redirected toward:
+</p>
+
+<ul>
+<li>reconstruction,</li>
+<li>energy development,</li>
+<li>healthcare,</li>
+<li>education,</li>
+<li>ecological sovereignty.</li>
+</ul>
+
+</article>
+
+
+<!-- ARTICLE 18 -->
+
+<article id="article18">
+
+<h2>Article 18 – Immigration, Workforce and Knowledge Transfer</h2>
+
+<h3>18.1 – Non-Political Immigration</h3>
+
+<p>
+Immigration shall not serve as a political instrument.
+</p>
+
+<p>
+It shall be limited to:
+</p>
+
+<ul>
+<li>workforce needs,</li>
+<li>technical expertise,</li>
+<li>specialized skills,</li>
+<li>demonstrated national needs.</li>
+</ul>
+
+<h3>18.2 – Immigration Regulated by the People</h3>
+
+<p>
+The people shall determine:
+</p>
+
+<ul>
+<li>quotas,</li>
+<li>priority sectors,</li>
+<li>required skills,</li>
+<li>lengths of stay,</li>
+<li>return conditions.</li>
+</ul>
+
+<h3>18.3 – End of Forced Mass Migration</h3>
+
+<p>
+The elimination of warfare and the establishment of global neutrality shall reduce:
+</p>
+
+<ul>
+<li>war-driven mass migration,</li>
+<li>forced displacement,</li>
+<li>destruction-related exodus.</li>
+</ul>
+
+<h3>18.4 – Reconstruction of Destroyed Countries</h3>
+
+<p>
+Countries affected by conflict, disasters or international abuse shall receive:
+</p>
+
+<ul>
+<li>reconstruction assistance,</li>
+<li>stabilization support,</li>
+<li>rehabilitation programs,</li>
+<li>neutral international partnerships.</li>
+</ul>
+
+<p>
+The objective is to allow people to remain and prosper in their own countries with dignity.
+</p>
+
+</article>
+
+
+<!-- ARTICLE 19 -->
+
+<article id="article19">
+
+<h2>Article 19 – Third-Party Damage and Resource Restoration</h2>
+
+<h3>19.1 – Responsibility of Third Parties</h3>
+
+<p>
+Any damage caused by:
+</p>
+
+<ul>
+<li>a State,</li>
+<li>a corporation,</li>
+<li>an organization,</li>
+<li>an armed group,</li>
+<li>an economic entity,</li>
+</ul>
+
+<p>
+must be repaired by the responsible party under the supervision of the people and the Neutral World Court.
+</p>
+
+<h3>19.2 – Global Coordination of Reparations</h3>
+
+<p>
+The Global Leader shall coordinate:
+</p>
+
+<ul>
+<li>compensation mechanisms,</li>
+<li>reparations,</li>
+<li>reconstruction efforts,</li>
+<li>rehabilitation programs,</li>
+<li>neutral sanctions.</li>
+</ul>
+
+<h3>19.3 – Resource Rehabilitation</h3>
+
+<p>
+Resources that have been damaged, polluted, diverted or seized must be:
+</p>
+
+<ul>
+<li>restored,</li>
+<li>decontaminated,</li>
+<li>replanted,</li>
+<li>rebalanced,</li>
+<li>protected.</li>
+</ul>
+
+<h3>19.4 – Strict Regulations</h3>
+
+<p>
+All rehabilitation programs shall be conducted under:
+</p>
+
+<ul>
+<li>environmental standards,</li>
+<li>citizen audits,</li>
+<li>full transparency,</li>
+<li>sanctions for non-compliance.</li>
+</ul>
+
+<h3>19.5 – Prohibition of Resource Appropriation</h3>
+
+<p>
+No entity may:
+</p>
+
+<ul>
+<li>privatize a common resource,</li>
+<li>divert a public resource flow,</li>
+<li>monopolize a territory,</li>
+<li>exploit a population.</li>
+</ul>
+
+<p>
+Any violation shall trigger:
+</p>
+
+<ul>
+<li>immediate suspension,</li>
+<li>a citizen audit,</li>
+<li>judicial sanctions,</li>
+<li>intervention by the Neutral World Court.</li>
+</ul>
+
+</article>
+<!-- ARTICLE 20 -->
+
+<article id="article20">
+
+<h2>Article 20 – Science, Knowledge and Innovation</h2>
+
+<h3>20.1 – Freedom of Research</h3>
+
+<p>
+Scientific research shall be free, transparent and independent from political,
+economic and ideological influence.
+</p>
+
+<h3>20.2 – Open Knowledge</h3>
+
+<p>
+Scientific knowledge funded by public resources shall be accessible to all citizens.
+</p>
+
+<h3>20.3 – Ethical Innovation</h3>
+
+<p>
+Innovation must serve humanity, public welfare, environmental sustainability
+and long-term resource management.
+</p>
+
+<h3>20.4 – Citizen Scientific Oversight</h3>
+
+<p>
+Citizens may participate in the evaluation, publication and review of major
+scientific projects affecting society.
+</p>
+
+</article>
+
+<!-- ARTICLE 21 -->
+
+<article id="article21">
+
+<h2>Article 21 – Education and Knowledge Transmission</h2>
+
+<h3>21.1 – Universal Access to Education</h3>
+
+<p>
+Every citizen has the right to free, accessible and high-quality education.
+</p>
+
+<h3>21.2 – Lifelong Learning</h3>
+
+<p>
+Education shall continue throughout life and promote personal,
+professional and civic development.
+</p>
+
+<h3>21.3 – Independent Knowledge</h3>
+
+<p>
+Educational institutions must remain independent from political,
+commercial and ideological manipulation.
+</p>
+
+<h3>21.4 – Civic Education</h3>
+
+<p>
+Citizens shall receive education concerning constitutional rights,
+public participation and democratic responsibilities.
+</p>
+
+</article>
+
+<!-- ARTICLE 22 -->
+
+<article id="article22">
+
+<h2>Article 22 – Health and Human Well-Being</h2>
+
+<h3>22.1 – Right to Healthcare</h3>
+
+<p>
+Every citizen has the right to accessible and quality healthcare.
+</p>
+
+<h3>22.2 – Prevention First</h3>
+
+<p>
+Public health policies shall prioritize prevention, education and healthy living.
+</p>
+
+<h3>22.3 – Medical Transparency</h3>
+
+<p>
+Health institutions must operate under full transparency and public accountability.
+</p>
+
+<h3>22.4 – Independent Medical Research</h3>
+
+<p>
+Medical research shall remain independent from undue commercial or political influence.
+</p>
+
+</article>
+
+<!-- ARTICLE 23 -->
+
+<article id="article23">
+
+<h2>Article 23 – International Cooperation and Peace</h2>
+
+<h3>23.1 – Principle of Peace</h3>
+
+<p>
+The Peuplitique model promotes peaceful cooperation between peoples and nations.
+</p>
+
+<h3>23.2 – Neutral Partnerships</h3>
+
+<p>
+International partnerships shall be based on transparency, reciprocity,
+mutual respect and shared development.
+</p>
+
+<h3>23.3 – Protection of Peoples</h3>
+
+<p>
+No nation, institution or economic actor may exploit another people,
+its territory or its resources.
+</p>
+
+<h3>23.4 – Global Cooperation</h3>
+
+<p>
+The Global Leader and the Neutral World Court may facilitate cooperation,
+mediation and peaceful resolution of international disputes.
+</p>
+
+</article>
+<!-- ARTICLE 24 -->
+
+<article id="article24">
+
+<h2>Article 24 – Integrated Economy and Harmonized Development</h2>
+
+<p>
+The economy shall be organized in the service of the people, resources and the common good.
+</p>
+
+<ul>
+<li>Essential resources may not be monopolized.</li>
+<li>Economic activity shall contribute to collective well-being.</li>
+<li>Speculation on essential goods is prohibited.</li>
+<li>Economic flows shall be transparent and auditable.</li>
+<li>Prosperity shall be measured through quality of life and sustainable development rather than financial growth alone.</li>
+</ul>
+
+</article>
+
+<!-- ARTICLE 25 -->
+
+<article id="article25">
+
+<h2>Article 25 – Food Self-Sufficiency and Resource Security</h2>
+
+<p>
+Every nation shall strive to achieve sustainable food self-sufficiency.
+</p>
+
+<ul>
+<li>Local production shall be encouraged.</li>
+<li>Agricultural land shall be protected.</li>
+<li>Water is recognized as a fundamental common resource.</li>
+<li>Seeds and essential resources shall be preserved.</li>
+<li>Citizens shall have access to healthy and sufficient food.</li>
+</ul>
+
+</article>
+
+<!-- ARTICLE 26 -->
+
+<article id="article26">
+
+<h2>Article 26 – Citizen Field Research</h2>
+
+<p>
+Citizen research shall complement traditional scientific institutions.
+</p>
+
+<ul>
+<li>Citizens may conduct field investigations.</li>
+<li>Collected data shall be published through open access.</li>
+<li>Research findings may contribute to public policy development.</li>
+<li>Methodological transparency is mandatory.</li>
+<li>Results shall be subject to collective verification.</li>
+</ul>
+
+</article>
+
+<!-- ARTICLE 27 -->
+
+<article id="article27">
+
+<h2>Article 27 – Citizen Artificial Intelligence</h2>
+
+<p>
+Artificial Intelligence is a tool dedicated to serving the people.
+</p>
+
+<ul>
+<li>It shall promote access to knowledge.</li>
+<li>It shall assist citizens in research and decision-making.</li>
+<li>Its operation must remain transparent.</li>
+<li>Known biases must be publicly documented.</li>
+<li>Artificial Intelligence may never replace popular sovereignty.</li>
+</ul>
+
+</article>
+
+<!-- ARTICLE 28 -->
+
+<article id="article28">
+
+<h2>Article 28 – Media, Information and Transparency</h2>
+
+<p>
+Information shall be recognized as a matter of public interest.
+</p>
+
+<ul>
+<li>Freedom of the press shall be guaranteed.</li>
+<li>Citizens shall have access to public information.</li>
+<li>Media conflicts of interest must be publicly disclosed.</li>
+<li>Media funding sources shall be transparent.</li>
+<li>Information pluralism shall be protected.</li>
+</ul>
+
+</article>
+
+<!-- ARTICLE 29 -->
+
+<article id="article29">
+
+<h2>Article 29 – Citizen Debate and Public Participation</h2>
+
+<p>
+Citizen debate constitutes a permanent pillar of Peuplitique democracy.
+</p>
+
+<ul>
+<li>Every citizen may submit proposals and ideas.</li>
+<li>Public debates shall remain open and accessible.</li>
+<li>Respectful exchange of viewpoints shall be encouraged.</li>
+<li>Citizen summaries and recommendations shall be published.</li>
+<li>Results may be submitted to popular vote.</li>
+</ul>
+
+</article>
+
+<!-- ARTICLE 30 -->
+
+<article id="article30">
+
+<h2>Article 30 – Global Resource Constitution</h2>
+
+<p>
+The vital resources of the planet constitute a common heritage of humanity.
+</p>
+
+<ul>
+<li>Water, air and ecosystems shall be protected.</li>
+<li>Strategic resources shall be managed sustainably.</li>
+<li>Future generations must be safeguarded.</li>
+<li>Large-scale environmental destruction may be subject to international sanctions.</li>
+<li>Global cooperation shall be encouraged.</li>
+</ul>
+
+</article>
+
+<!-- ARTICLE 31 -->
+
+<article id="article31">
+
+<h2>Article 31 – Independent International Tribunal</h2>
+
+<p>
+An Independent International Tribunal shall ensure respect for global justice.
+</p>
+
+<ul>
+<li>Its operations shall be transparent.</li>
+<li>Its decisions shall be public.</li>
+<li>It shall protect peoples from international abuses.</li>
+<li>It may investigate violations of fundamental rights.</li>
+<li>It shall act impartially and independently.</li>
+</ul>
+
+</article>
+
+<!-- ARTICLE 32 -->
+
+<article id="article32">
+
+<h2>Article 32 – Global Resource Currency (MR)</h2>
+
+<p>
+The Global Resource Currency shall be based upon real resources and tangible value creation.
+</p>
+
+<ul>
+<li>It shall support economic stability.</li>
+<li>It shall limit excessive speculation.</li>
+<li>It shall rely on verifiable indicators.</li>
+<li>Its management shall be transparent.</li>
+<li>It shall promote balance between populations, resources and development.</li>
+</ul>
+
+</article>
+
+<!-- ARTICLE 33 -->
+
+<article id="article33">
+
+<h2>Article 33 – Global Resource Governance</h2>
+
+<p>
+Global resource governance shall be based upon cooperation among peoples.
+</p>
+
+<ul>
+<li>Resources shall be mapped and evaluated.</li>
+<li>Human needs shall be collectively assessed.</li>
+<li>Exchanges shall be transparent.</li>
+<li>Global imbalances may be corrected through cooperation mechanisms.</li>
+<li>Particular interests shall never prevail over the global common good.</li>
+</ul>
+
+</article>
+
+<!-- ARTICLE 34 -->
+
+<article id="article34">
+
+<h2>Article 34 – The Peuplitique Ecosystem</h2>
+
+<p>
+The Peuplitique Ecosystem brings together all tools, institutions, platforms and mechanisms necessary for the exercise of citizen sovereignty.
+</p>
+
+<ul>
+<li>Citizens constitute the center of the system.</li>
+<li>Institutions operate as service structures.</li>
+<li>Science, research and education support decision-making.</li>
+<li>Transparency remains a permanent obligation.</li>
+<li>The Constitution ensures the coherence of the entire ecosystem.</li>
+</ul>
+
+<p>
+The Peuplitique Ecosystem pursues peace, justice, transparency, cooperation and sustainable resource management for the benefit of present and future generations.
+</p>
+
+</article>
+<h3>Related Pages</h3>
+
+<ul>
+
+<li><a href="juridique.html">← Back to the Citizen Constitution</a></li>
+
+<li><a href="Science-Indépendante.html">Article 20 – Independent Science</a></li>
+
+<li><a href="Education.html">Article 21 – Education and Knowledge Transmission</a></li>
+
+<li><a href="Sante.html">Article 22 – Health and Human Well-Being</a></li>
+
+<li><a href="Relations-Internationales.html">Article 23 – International Cooperation and Peace</a></li>
+
+<li><a href="MR-Monnaie-Ressource-Mondiale.html">Article 24 – Integrated Economy</a></li>
+
+<li><a href="Autonomie-Alimentaire.html">Article 25 – Food Self-Sufficiency</a></li>
+
+<li><a href="Recherche-citoyenne-de-terrain.html">Article 26 – Citizen Field Research</a></li>
+
+<li><a href="forum.html">Article 27 – Citizen Artificial Intelligence</a></li>
+
+<li><a href="media.html">Article 28 – Media and Transparency</a></li>
+
+<li><a href="debat.html">Article 29 – Citizen Debate</a></li>
+
+<li><a href="Architecture-Mondiale-Des-Ressources.html">Article 30 – Global Resource Constitution</a></li>
+
+<li><a href="tribunal-international-independant.html">Article 31 – Independent International Tribunal</a></li>
+
+<li><a href="MR-Monnaie-Ressource-Mondiale.html">Article 32 – Global Resource Currency (MR)</a></li>
+
+<li><a href="Architecture-Mondiale-Des-Ressources.html">Article 33 – Global Resource Governance</a></li>
+
+<li><a href="ecosysteme.html">Article 34 – Peuplitique Ecosystem</a></li>
+
+</ul>
+
+
+
+
+
+
 
 </section>
+<h3>Quick Access</h3>
+
+<ul>
+
+<li><a href="index.html">Site Home</a></li>
+
+<li><a href="contact.html">Contact</a></li>
+
+<li><a href="media.html">Media</a></li>
+
+<li><a href="debat.html">Citizen Debates</a></li>
+
+<li><a href="forum.html">Forum</a></li>
+
+<li><a href="contact.html">Contact Form</a></li>
+
+<li>Peuplitique Website</li>
+
+<li>Peuplitique App</li>
+
+</ul>
+
+</div>
+ 
+<div style="text-align:center; margin:30px 0;">
+    <a href="juridique.html"
+       style="color:#3FD1C2; font-weight:bold; text-decoration:none;">
+       ← Back to the Citizen Constitution
+    </a>
+</div>
+
 <footer class="footer">
     <p>
-        Peuplitique — Constitution citoyenne juridique
+        Peuplitique – juridique
     </p>
 </footer>
+
+<script>
+function setLang(lang) {
+    localStorage.setItem('lang', lang);
+
+    document.querySelectorAll('.fr').forEach(el => {
+        el.style.display = (lang === 'fr') ? 'block' : 'none';
+    });
+
+    document.querySelectorAll('.en').forEach(el => {
+        el.style.display = (lang === 'en') ? 'block' : 'none';
+    });
+}
+
+window.onload = function () {
+    setLang(localStorage.getItem('lang') || 'fr');
+};
+</script>
+
 </body>
 </html>
+
+
+
+
+
+
+
