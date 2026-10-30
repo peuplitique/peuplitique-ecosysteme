@@ -183,7 +183,26 @@ input[type="submit"]:hover {
 .sujet h3 {
     margin-top: 0;
 }
+/* RESPONSIVE IMAGES */
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* RESPONSIVE TABLES */
+
+table {
+    display: block;
+    overflow-x: auto;
+}
+
+/* PREVENT HORIZONTAL OVERFLOW */
+
+html,
+body {
+    overflow-x: hidden;
+}
 /* -------------------- FOOTER -------------------- */
 footer {
     text-align: center;
