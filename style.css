@@ -77,7 +77,67 @@ h1, h2, h3 {
     border-radius: 4px;
     margin: 12px 0 20px 0;
 }
+/* -------------------- IMAGES RESPONSIVE -------------------- */
 
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
+
+/* Images dans les sections */
+
+section img,
+.zone-bleue img,
+.carte img {
+    width: 100%;
+    max-width: 800px;
+    margin: 15px auto;
+}
+
+/* Mobile */
+
+@media (max-width: 768px) {
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    section img,
+    .zone-bleue img,
+    .carte img {
+        width: 100%;
+        margin: 10px auto;
+    }
+}
+
+/* -------------------- PETITS SMARTPHONES -------------------- */
+
+@media (max-width: 480px) {
+
+    .hero h1 {
+        font-size: 1.6rem;
+    }
+
+    .hero p {
+        font-size: 0.95rem;
+    }
+
+    .centre {
+        width: 200px;
+        height: 200px;
+    }
+
+    .sous-titre {
+        font-size: 18px;
+    }
+
+    .ligne {
+        width: 45px;
+    }
+}
 /* -------------------- SOMMAIRE -------------------- */
 .sommaire {
     margin-bottom: 25px;
