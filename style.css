@@ -14,20 +14,22 @@
     --bleu-peuplitique:#3FD1C2;
     --blanc:#FFFFFF;
 }
-
-body{
-    background:linear-gradient(
-        135deg,
-        #102A43 0%,
-        #1F3A5F 50%,
-        #102A43 100%
+body {
+    background: radial-gradient(
+        circle at top,
+        #1a2f4d 0%,
+        #0b1220 60%,
+        #05070d 100%
     );
-    color:#FFFFFF;
+    color: #FFFFFF;
 }
+
 
 /* -------------------- TITRES -------------------- */
 h1, h2, h3 {
     color: var(--bleu-peuplitique);
+    text-shadow: 0 0 12px rgba(63, 209, 194, 0.6);
+    letter-spacing: 1.5px;
 }
 
 .hero h1{
@@ -43,14 +45,12 @@ h1, h2, h3 {
     text-align:center;
     padding:100px 20px;
 }
-
-.hero h1{
-    font-size:4rem;
-    color:#3FD1C2;
-    text-shadow:
-        0 0 10px #3FD1C2,
-        0 0 20px #3FD1C2;
+.hero h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    text-align: center;
 }
+
 
 .hero p{
     color:#FFFFFF;
@@ -113,7 +113,6 @@ h1, h2, h3 {
 
 .lang-switch a {
     color: #FFFFFF;
-}
     font-weight: bold;
     text-decoration: none;
 }
@@ -136,7 +135,12 @@ h1, h2, h3 {
 .carte-futur li {
     margin:10px 0;
 }
-
+section {
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(63,209,194,0.25);
+    border-radius: 20px;
+}
 /* -------------------- LIENS DANS LES CARTES -------------------- */
 .carte a {
     color: #3FD1C2;
@@ -239,12 +243,6 @@ table {
 html,
 body {
     overflow-x: hidden;
-}
-:root{
-    --bleu-profond:#102A43;
-    --bleu-futur:#1F3A5F;
-    --bleu-peuplitique:#3FD1C2;
-    --blanc:#FFFFFF;
 }
 
 .hub{
