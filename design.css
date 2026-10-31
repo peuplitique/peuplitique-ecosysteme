@@ -188,7 +188,7 @@ input[type="submit"]:hover {
 .earth-image{
 
     width:100%;
-    max-width:1200px;
+    max-width:1000px;
 
     display:block;
 
@@ -197,29 +197,79 @@ input[type="submit"]:hover {
     border-radius:30px;
 
     box-shadow:
-        0 0 30px rgba(63,209,194,.3),
-        0 0 60px rgba(63,209,194,.2);
+        0 0 40px rgba(63,209,194,.4),
+        0 0 80px rgba(63,209,194,.25);  
+}
+.flux{
+
+    position:absolute;
+
+    color:#3FD1C2;
+
+    font-weight:bold;
+
+    background:rgba(0,0,0,.6);
+
+    padding:10px 15px;
+
+    border-radius:20px;
+
+    backdrop-filter:blur(10px);
 
 }
+.energie{
+    top:10%;
+    left:15%;
+}
 
+.eau{
+    top:10%;
+    right:15%;
+}
 
+.environnement{
+    bottom:15%;
+    left:15%;
+}
+
+.sante{
+    bottom:15%;
+    right:15%;
+}
+
+.cooperation{
+    bottom:5%;
+    left:50%;
+    transform:translateX(-50%);
+}
 .hero-planete{
     text-align:center;
     padding:80px 20px;
 }
 
 .earth-container{
+position:relative;
 
     display:flex;
-    flex-wrap:wrap;
     justify-content:center;
     align-items:center;
-    gap:30px;
 
-    padding:80px 20px;
+    padding:60px 20px;
 
 }
+.earth-image{
+    transition:all .5s ease;
+}
 
+.earth-image:hover{
+
+    transform:scale(1.02);
+
+    box-shadow:
+        0 0 50px rgba(63,209,194,.5),
+        0 0 100px rgba(63,209,194,.3);
+
+}   
 .globe{
 
     width:350px;
@@ -248,13 +298,6 @@ input[type="submit"]:hover {
 
 }
 
-.flux{
-
-    color:#3FD1C2;
-
-    font-weight:bold;
-
-}
 
 .indicateurs{
 
@@ -314,6 +357,16 @@ input[type="submit"]:hover {
         font-size:80px;
 
     }
+.flux{
+
+        position:static;
+
+        margin:10px auto;
+
+        display:inline-block;
+
+    }
 
 }
+
 
