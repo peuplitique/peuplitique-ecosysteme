@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
+   font-family: "Segoe UI", "Trebuchet MS", sans-serif; 
 }
 
 /* -------------------- COULEURS PEUPLITIQUE -------------------- */
@@ -26,16 +26,19 @@ body {
 
 
 /* -------------------- TITRES -------------------- */
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     color: var(--bleu-peuplitique);
-    text-shadow: 0 0 12px rgba(63, 209, 194, 0.6);
-    letter-spacing: 1.5px;
+    text-shadow: 0 0 12px rgba(63,209,194,.6);
+    letter-spacing: 2px;
+    font-weight: 700;
 }
 
 .hero h1{
     font-size:4rem;
-    color:#3FD1C2;
-    letter-spacing:4px;
+    letter-spacing:5px;
+    text-transform:uppercase;
 }
 
 .hero p{
@@ -158,12 +161,18 @@ section img,
     color: #FFFFFF;
     text-decoration: none;
     font-weight: bold;
+    padding: 10px 16px;
+    border-radius: 30px;
+    transition: all 0.3s ease;
 }
 
 .sommaire a:hover,
 .sommaire a.active {
     color: #3FD1C2;
+    background: rgba(63,209,194,0.12);
+    box-shadow: 0 0 15px rgba(63,209,194,0.35);
 }
+
 
 /* -------------------- LANGUES -------------------- */
 .lang-switch {
@@ -326,7 +335,25 @@ body {
         0 0 40px rgba(63,209,194,.3),
         0 0 60px rgba(63,209,194,.2);
 }
+/* -------------------- ANIMATIONS -------------------- */
 
+@keyframes apparition {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.hero,
+section,
+.zone-bleue,
+.centre {
+    animation: apparition 0.8s ease-out forwards;
+}
 /* -------------------- FOOTER -------------------- */
 footer {
     text-align: center;
