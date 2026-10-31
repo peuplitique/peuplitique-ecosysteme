@@ -23,7 +23,11 @@ body {
     );
     color: #FFFFFF;
 }
-
+.lang-switch a {
+    color:#FFFFFF;
+    font-weight:bold;
+    text-decoration:none;
+}  
 
 /* -------------------- TITRES -------------------- */
 h1,
@@ -48,11 +52,7 @@ h3 {
     text-align:center;
     padding:100px 20px;
 }
-.hero h1 {
-    font-size: 3rem;
-    text-transform: uppercase;
-    text-align: center;
-}
+
 
 
 .hero p{
@@ -166,12 +166,12 @@ section img,
     transition: all 0.3s ease;
 }
 
-.sommaire a:hover {
-    transform: translateY(-3px);
+.sommaire a:hover,
 .sommaire a.active {
     color: #3FD1C2;
     background: rgba(63,209,194,0.12);
     box-shadow: 0 0 15px rgba(63,209,194,0.35);
+    transform: translateY(-3px);
 }
 
 
