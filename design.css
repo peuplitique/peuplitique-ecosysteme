@@ -185,6 +185,23 @@ input[type="submit"]:hover {
 /* =====================================
    DIGITAL EARTH - HUB MONDIAL
 ===================================== */
+.earth-image{
+
+    width:100%;
+    max-width:1200px;
+
+    display:block;
+
+    margin:auto;
+
+    border-radius:30px;
+
+    box-shadow:
+        0 0 30px rgba(63,209,194,.3),
+        0 0 60px rgba(63,209,194,.2);
+
+}
+
 
 .hero-planete{
     text-align:center;
