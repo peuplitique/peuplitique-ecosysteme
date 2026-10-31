@@ -103,8 +103,6 @@ section img,
 
 @media (max-width: 768px) {
 
-
-
     section img,
     .zone-bleue img,
     .carte img {
@@ -168,9 +166,16 @@ section img,
     color: #3FD1C2;
     background: rgba(63,209,194,0.12);
     box-shadow: 0 0 15px rgba(63,209,194,0.35);
-    transform: translateY(-3px);
+
+.sommaire a {
+    transition: all .3s ease;
 }
 
+.sommaire a:hover {
+    transform: translateY(-3px);
+}
+    
+   
 
 /* -------------------- LANGUES -------------------- */
 .lang-switch {
@@ -208,10 +213,14 @@ section {
     border: 1px solid rgba(63,209,194,0.25);
     border-radius: 20px;
 }
-   section:hover {
+  section {
+    transition: transform .3s ease, box-shadow .3s ease;
+}
+    
+    section:hover {
     transform: translateY(-5px);
-    transition: all .3s ease, box-shadow .3s ease;
-} 
+    box-shadow: 0 0 25px rgba(63,209,194,.3);
+}
 /* -------------------- LIENS DANS LES CARTES -------------------- */
 .carte a {
     color: #3FD1C2;
@@ -242,7 +251,7 @@ section {
 
 .btn:hover {
     background: #32b5a9;
-    transform: translateY(-2px);
+    transform: translateY(-3px) scale(1.03);
 }
 
 /* -------------------- FORMULAIRES -------------------- */
@@ -352,6 +361,14 @@ section,
 .zone-bleue,
 .centre {
     animation: apparition 0.8s ease-out forwards;
+}
+.centre {
+    animation: pulsation 4s infinite ease-in-out;
+}
+
+.centre:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
 }
 /* Halo dynamique */
 
