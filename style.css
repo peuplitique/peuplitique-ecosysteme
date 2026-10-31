@@ -103,10 +103,7 @@ section img,
 
 @media (max-width: 768px) {
 
-    img {
-        max-width: 100%;
-        height: auto;
-    }
+
 
     section img,
     .zone-bleue img,
@@ -213,7 +210,7 @@ section {
 }
    section:hover {
     transform: translateY(-5px);
-    transition: all .3s ease;
+    transition: all .3s ease, box-shadow .3s ease;
 } 
 /* -------------------- LIENS DANS LES CARTES -------------------- */
 .carte a {
@@ -300,10 +297,7 @@ input[type="submit"]:hover {
 }
 /* RESPONSIVE IMAGES */
 
-img {
-    max-width: 100%;
-    height: auto;
-}
+
 
 /* RESPONSIVE TABLES */
 
