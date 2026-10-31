@@ -201,7 +201,7 @@ input[type="submit"]:hover {
 .earth-image{
 
     width:100%;
-    max-width:1000px;
+    max-width:1200px;
 
     display:block;
 
@@ -314,6 +314,11 @@ position:relative;
 
 .indicateurs{
 
+    color:#FFFFFF;
+
+    backdrop-filter:blur(10px);
+
+}
     display:grid;
 
     grid-template-columns:
