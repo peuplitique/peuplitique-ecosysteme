@@ -166,7 +166,8 @@ section img,
     transition: all 0.3s ease;
 }
 
-.sommaire a:hover,
+.sommaire a:hover {
+    transform: translateY(-3px);
 .sommaire a.active {
     color: #3FD1C2;
     background: rgba(63,209,194,0.12);
@@ -210,6 +211,10 @@ section {
     border: 1px solid rgba(63,209,194,0.25);
     border-radius: 20px;
 }
+   section:hover {
+    transform: translateY(-5px);
+    transition: all .3s ease;
+} 
 /* -------------------- LIENS DANS LES CARTES -------------------- */
 .carte a {
     color: #3FD1C2;
@@ -354,6 +359,24 @@ section,
 .centre {
     animation: apparition 0.8s ease-out forwards;
 }
+/* Halo dynamique */
+
+@keyframes pulsation {
+    0% {
+        box-shadow: 0 0 20px rgba(63,209,194,.3);
+    }
+    50% {
+        box-shadow: 0 0 40px rgba(63,209,194,.6);
+    }
+    100% {
+        box-shadow: 0 0 20px rgba(63,209,194,.3);
+    }
+}
+
+.centre {
+    animation: pulsation 4s infinite ease-in-out;
+}
+
 /* -------------------- FOOTER -------------------- */
 footer {
     text-align: center;
