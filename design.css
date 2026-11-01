@@ -12,7 +12,6 @@ body {
         #1a2f4d 0%,
         #0b1220 60%,
         #05070d 100%
-    );
 
     color:#FFFFFF;
 
@@ -201,9 +200,12 @@ input[type="submit"]:hover {
 
 .hero-planete{
     text-align:center;
-    padding:40px 20px;
+    padding:25px 20px;
 }
-
+.hero-content{
+    max-width:900px;
+    margin:auto;
+}
 .earth-container{
     position:relative;
     display:flex;
@@ -213,25 +215,34 @@ input[type="submit"]:hover {
     max-width:1400px;
     margin:auto;
 }
+.earth-container{
+    position:relative;
+    max-width:1400px;
+    margin:auto;
+    padding:10px 20px 20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
 
 .earth-image{
-    width:85%;
+    width:90%;
     max-width:1200px;
     display:block;
-    margin:20px auto 40px;
+    margin:auto;
     border-radius:30px;
-    transition:all .5s ease;
+
     box-shadow:
         0 0 40px rgba(63,209,194,.4),
         0 0 80px rgba(63,209,194,.25);
+
+    transition:all .5s ease;
 }
 
 .earth-image:hover{
     transform:scale(1.02);
-    box-shadow:
-        0 0 50px rgba(63,209,194,.5),
-        0 0 100px rgba(63,209,194,.3);
 }
+
 
 .flux{
     position:absolute;
