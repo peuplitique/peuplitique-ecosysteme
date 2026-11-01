@@ -198,38 +198,51 @@ input[type="submit"]:hover {
 /* =====================================
    DIGITAL EARTH - HUB MONDIAL
 ===================================== */
-.earth-image{
 
-    width:100%;
-    max-width:1200px;
+.hero-planete{
+    text-align:center;
+    padding:40px 20px;
+}
 
-    display:block;
-
+.earth-container{
+    position:relative;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+    max-width:1400px;
     margin:auto;
+}
 
+.earth-image{
+    width:85%;
+    max-width:1200px;
+    display:block;
+    margin:20px auto 40px;
     border-radius:30px;
-
+    transition:all .5s ease;
     box-shadow:
         0 0 40px rgba(63,209,194,.4),
-        0 0 80px rgba(63,209,194,.25);  
+        0 0 80px rgba(63,209,194,.25);
 }
+
+.earth-image:hover{
+    transform:scale(1.02);
+    box-shadow:
+        0 0 50px rgba(63,209,194,.5),
+        0 0 100px rgba(63,209,194,.3);
+}
+
 .flux{
-
     position:absolute;
-
     color:#3FD1C2;
-
     font-weight:bold;
-
     background:rgba(0,0,0,.6);
-
     padding:10px 15px;
-
     border-radius:20px;
-
     backdrop-filter:blur(10px);
-
 }
+
 .energie{
     top:10%;
     left:15%;
@@ -255,55 +268,7 @@ input[type="submit"]:hover {
     left:50%;
     transform:translateX(-50%);
 }
-.hero-planete{
-    text-align:center;
-    padding:80px 20px;
-}
 
-.earth-container{
-position:relative;
-
-    display:flex;
-    justify-content:center;
-    align-items:center;
-
-    padding:60px 20px;
-
-}
-.earth-image{
-    transition:all .5s ease;
-}
-
-.earth-image:hover{
-
-    transform:scale(1.02);
-
-    box-shadow:
-        0 0 50px rgba(63,209,194,.5),
-        0 0 100px rgba(63,209,194,.3);
-
-}   
-.globe{
-
-    width:350px;
-    height:350px;
-
-    border-radius:50%;
-
-    border:3px solid #3FD1C2;
-
-    display:flex;
-    justify-content:center;
-    align-items:center;
-
-    animation:pulsation 4s infinite ease-in-out;
-
-    box-shadow:
-        0 0 20px rgba(63,209,194,.5),
-        0 0 40px rgba(63,209,194,.3),
-        0 0 80px rgba(63,209,194,.2);
-
-}
 
 .globe-core{
 
@@ -311,41 +276,25 @@ position:relative;
 
 }
 
-
 .indicateurs{
-
     color:#FFFFFF;
-
     backdrop-filter:blur(10px);
 
-}
     display:grid;
-
-    grid-template-columns:
-    repeat(auto-fit,minmax(180px,1fr));
+    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
 
     gap:20px;
-
     max-width:1200px;
-
     margin:auto;
-
     padding:50px 20px;
-
 }
 
 .indicateur{
-
     background:rgba(255,255,255,.05);
-
     border:1px solid rgba(63,209,194,.25);
-
     border-radius:20px;
-
     padding:20px;
-
     text-align:center;
-
 }
 
 .vision{
@@ -354,7 +303,7 @@ position:relative;
 
     margin:auto;
 
-    padding:60px 20px;
+    padding:40px 20px;
 
     text-align:center;
 
@@ -386,5 +335,4 @@ position:relative;
     }
 
 }
-
 
